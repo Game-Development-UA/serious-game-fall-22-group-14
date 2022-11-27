@@ -36,6 +36,54 @@ Bellatrix meets you with silence, as if she’s giving you the most menacing loo
 “So what’s the [[urgency?”|Concern]]
 
 ::Laboratory
+You stretch your arms and legs before you stand up from your chair to leave the room.The soldiers salute you as you leave the commanding room. Many thoughts rush through your mind as you walk down the metal corridors with a purplish glow. What could these messages have that may help or end us? Who is it from? What do these messages want from us? Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
+“Have any of the messages been open?” you asked.
+“None of them, Commander.”
+“Go ahead and open the first message.”
+Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
+
+[[“Ew. Get it off the screen.”|Off the screen]]
+[[“What happened to saying hello first?”|Rude]]
+[[“My goodness, that’s disgusting.”|Ew]]
+[[“What is this?”|Ew]]
+
+::Rude
+“I have no idea, sir.”
+“Well this species has a weird way of saying hello, I hope this isn’t common in their [[species.”|Off the screen]]
+
+::Ew
+Bellatrix had a face of disgust, looking at you, knowing you felt the same about the images. 
+“Can we take these down?” Bellatrix asked.
+“PLEASE!!!” Everyone [[exclaimed.|Off the screen]]
+
+::Ew
+“These are nudes images of a different species.” Bellatrix stated.
+“Yeah, get those images off screen, [[please.”|Off the screen]] 
+
+::Off the screen
+Bellatrix exits out of the message and you hear the sigh of relief from the researchers, as well as murmurs about how gross it was to even view those images.
+
 
 ::System Messager
+“Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
+“Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen. You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
+[[“This is disgusting.”|Close Message]]
+[[Send message to everyone in the command room|Sending Message]]
+[[“What is this?”|What?]] 
 
+::Close Message
+You close the messages and begin to open the other messages that were sent. When you opened them, you saw a language that was not familiar at all. You pull up another holographic screen, looking through the system for a translator. You find the translator and enter the messages into the translator. The translator took a moment to find the translation, but it was not in the system.You were at a loss until the translator on the screen brought something up.
+“Planet location identified in messages. Proceed to pinpoint the planet?” The system asked.
+This brought you to sit up in your chair.
+“Yes, proceed.”
+The translator closed out and the planet locator opened. It took only a few minutes to pinpoint the system and the orbit of the planet.
+“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. But the lives of your species may be at risk due to the species that sent the messages. You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+[[“Yes, Proceed.”]]
+[[“No, we’ll continue our search.”]]
+[[Get a second opinion]] 
+
+
+
+::Sending message
+
+::What?
