@@ -101,9 +101,20 @@ You call Bellatrix over the intercom. She picks up immediately.
 “Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
 “Commander.” You look to see your head weapons coordinator.
 “Should we start our weapons system as well? We don’t know who they are and what motives they have.”
-[[“Go ahead, we can’t trust this species.”|]]
-[[“No, if we go in as a threat, we’ll be treated as such. It’s too big of a risk.”]]
+[[“Go ahead, we can’t trust this species.”|Ready to go]]
+[[“No, if we go in as a threat, we’ll be treated as such. It’s too big of a risk.”|To see the beyond]]
 
+::Ready to go
+The head weapons coordinator loads the weapons system.
+“Give me the green light when everything is set.”
+You pull up the system's screen to see if every light is green. Every light was green and set.
+“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through.  
+
+
+::To see the beyond
+“Give me the green light when everything is set.”
+You pull up the system's screen to see if every light is green. Every light was green and set, except for the weapon’s system.
+“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through.
 
 
 ::Ending: No risk taken
@@ -115,10 +126,16 @@ You heard the exploding happening in the various rooms behind you. You closed yo
 
 ::Second opinion
 Who will you ask?
-[[Soldier]]
-[[Bellatrix]]
-[[Crew member]]
+[[Soldier|Soldier]]
+[[Bellatrix|Bellatrix]]
+[[Crew member|Crew member]]
 
+::Soldier
+
+
+::Bellatrix
+
+::Crew member
 
 
 :: Endings list
