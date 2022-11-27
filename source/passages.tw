@@ -29,7 +29,7 @@ Bellatrix meets you with silence, as if she’s giving you the most menacing loo
 “No, they’re all from an unknown location. We can not pinpoint where exactly the messages are from. You might want to look at them.”
 
 [[“Okay, I’ll make my way over to the laboratory.”|Laboratory]]
-[[“Can you send the messages over the system?”|]]
+[[“Can you send the messages over the system?”|System Messager]]
 
 ::Release that weird animal
 “Yes, but we have others taking care of that.”
