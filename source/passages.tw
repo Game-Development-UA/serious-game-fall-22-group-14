@@ -78,9 +78,9 @@ This brought you to sit up in your chair.
 “Yes, proceed.”
 The translator closed out and the planet locator opened. It took only a few minutes to pinpoint the system and the orbit of the planet.
 “Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. But the lives of your species may be at risk due to the species that sent the messages. You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
-[[“Yes, Proceed.”]]
-[[“No, we’ll continue our search.”]]
-[[Get a second opinion]] 
+[[“Yes, Proceed.”|Proceed with risk]]
+[[“No, we’ll continue our search.”|Ending: No risk taken]]
+[[Get a second opinion|Second opinion]] 
 
 ::Sending message
 Everyone looks at you confused, before they open the messages. As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
@@ -131,12 +131,25 @@ Who will you ask?
 [[Crew member|Crew member]]
 
 ::Soldier
-
+You walk up to the soldier standing by the exit of the command room and ask what his opinion is on going to the planet.
+“I believe there is more out there than what messages this species has for us. We can achieve many great things, we’re the Gaxodins. There is nothing we can’t do. Also, if a species already inhabits the planet, we’ll be chased out like the other planets that we have found. It’s best if we continue to search. There’s bound to be something else, right?”
+You walk back to your seat and question: Do you proceed to Planet X459?
+[[“Yes, Proceed.”]]
+[[“No, we’ll continue our search.”]]
 
 ::Bellatrix
+You message Bellatrix over the messenger and ask for her opinion on going to the planet.
+“Commander, to be completely honest with you, we need to go there. If this species is smart enough to communicate with us, forbid the nude images, this can be a breakthrough with our species. We can meet with them and discuss, get resources, and find a cure. We can trade information and grow as a species, along with the other species. It’ll be a win win. We have to take the risk, no matter what. This is it.”
+You thank her and question: Do you proceed to Planet X459?
+[[“Yes, Proceed.”]]
+[[“No, we’ll continue our search.”]]
 
 ::Crew member
-
+You walk up to a random crew member and ask what her opinion is on going to the planet.
+“I’m neutral about it. We could either go to the species, die or get resources, or we can explore the galaxy, die or find a planet. Either way, there are pros and cons to every situation we run into. But it’s up to you, I’m just here for the ride.” 
+You walk back to your seat and question: Do you proceed to Planet X459?
+[[“Yes, Proceed.”]]
+[[“No, we’ll continue our search.”]]
 
 :: Endings list
 You have recieved the No risk taken ending. Return to the beginning to see the other ending."
