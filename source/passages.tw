@@ -68,7 +68,7 @@ Bellatrix exits out of the message and you hear the sigh of relief from the rese
 “Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
 “Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen. You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
 [[“This is disgusting.”|Close Message]]
-[[Send message to everyone in the command room|Sending Message]]
+[[Send message to everyone in the command room|Sending message]]
 [[“What is this?”|What?]] 
 
 ::Close Message
@@ -82,8 +82,45 @@ The translator closed out and the planet locator opened. It took only a few minu
 [[“No, we’ll continue our search.”]]
 [[Get a second opinion]] 
 
-
-
 ::Sending message
+Everyone looks at you confused, before they open the messages. As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
+“Commander, the hell?! Why did you send that?!” One crew member asked disgustedly.
+“I had to see it, so do you. You can delete it, you know.” They all looked at you weird, then proceeded to delete the [[messages.|Close Message]]
 
 ::What?
+You call Bellatrix over the intercom. She picks up immediately.
+“Yes, Commander Drako?”
+“What is the first message?” Bellatrix was silent until you heard a quiet “ew”.
+“This species must have shot out nude images into space for some weird reason”
+“Do we know the name of this species”
+“No sir we do not but we do know a general area of where these pics were sent from.”
+[[“Let me guess another galaxy that will take another 50 years to get to”]]
+[[“Tell me where it was sent from”]]
+
+::Proceed with risk
+“Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
+“Commander.” You look to see your head weapons coordinator.
+“Should we start our weapons system as well? We don’t know who they are and what motives they have.”
+[[“Go ahead, we can’t trust this species.”|]]
+[[“No, if we go in as a threat, we’ll be treated as such. It’s too big of a risk.”]]
+
+
+
+::Ending: No risk taken
+The system hears the request and shuts down. The crew looks at you as if you made the worst mistake in history. You look at them. It was a moment until you barked at them to get back to work. You slouch in your chair and sigh. You couldn’t bear to risk it all and let your species die at the hands of an unknown species. You were sure there has to be another planet that can give your species everything needed. Right? You search elsewhere in the galaxy, only for your species to die from hunger and starvation. 
+You were the last one alive with only a barely functioning system. All of the remaining bodies were enclosed in the bay, where they all laid, and died horribly from your mistake. You should have taken that risk and you knew the moment they all began to die. You blinked at the screen and said your final words,
+“System… Self destruct…Nothing can be left behind.” 
+The system began its sequence, overloading the reactors and exploding everything.
+You heard the exploding happening in the various rooms behind you. You closed your eyes and drawed your final breath, as the plasma flames took over the room and destroyed the ship completely. 
+
+::Second opinion
+Who will you ask?
+[[Soldier]]
+[[Bellatrix]]
+[[Crew member]]
+
+
+
+:: Endings list
+You have recieved the No risk taken ending. Return to the beginning to see the other ending."
+Ending 1: No Risk taken
