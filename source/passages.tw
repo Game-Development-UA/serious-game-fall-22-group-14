@@ -110,8 +110,19 @@ You call Bellatrix over the intercom. She picks up immediately.
 “This species must have shot out nude images into space for some weird reason”
 “Do we know the name of this species”
 “No sir we do not but we do know a general area of where these pics were sent from.”
-[[“Let me guess another galaxy that will take another 50 years to get to”]]
-[[“Tell me where it was sent from”]]
+[[“Let me guess another galaxy that will take another 50 years to get to”|Not too far]]
+[[“Tell me where it was sent from”|Not too far]]
+
+::Not too far
+“It was sent from two systems over.”
+“We can be there in the next day if we have no more fuck up’s on the ship, like last time." Bellatrix stated. You remember last time the ship did a jump. Two out of six reactors were down for months after the space jump. Luckily, they're back up, but the worry that more reactors would go down after the jump would worry you.
+The system opened up the planet locator and you see the planet that the messages were sent from: Planet X459.
+“Planet X459, begin route to planet?” 
+[[“Wow i was not expecting that lets get to it”|Proceed with risk]]
+[[“This species better be helpful, and hopefully not nude.”|Nude species]]
+
+::Nude species
+[[“I agree these nude species are driving me crazy.”|Proced with risk]]
 
 ::Proceed with risk
 “Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
