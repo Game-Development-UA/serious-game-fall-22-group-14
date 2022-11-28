@@ -29,7 +29,7 @@ Bellatrix meets you with silence, as if she’s giving you the most menacing loo
 “No, they’re all from an unknown location. We can not pinpoint where exactly the messages are from. You might want to look at them.”
 
 [[“Okay, I’ll make my way over to the laboratory.”|Laboratory]]
-[[“Can you send the messages over the system?”|System Messager]]
+[[“Can you send the messages over the system?”|System Messenger]]
 
 ::Release that weird animal
 “Yes, but we have others taking care of that.”
@@ -45,7 +45,7 @@ Bellatrix opens the first message that was sent. It was two images of a species 
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
 [[“My goodness, that’s disgusting.”|Ew]]
-[[“What is this?”|Ew]]
+[[“What is this?”|What is it?]]
 
 ::Rude
 “I have no idea, sir.”
@@ -56,15 +56,31 @@ Bellatrix had a face of disgust, looking at you, knowing you felt the same about
 “Can we take these down?” Bellatrix asked.
 “PLEASE!!!” Everyone [[exclaimed.|Off the screen]]
 
-::Ew
+::What is it?
 “These are nudes images of a different species.” Bellatrix stated.
 “Yeah, get those images off screen, [[please.”|Off the screen]] 
 
 ::Off the screen
 Bellatrix exits out of the message and you hear the sigh of relief from the researchers, as well as murmurs about how gross it was to even view those images.
+"Can you load in the next message?" You asked Bellatrix.
+"Sure, let me pull it up." Bellatrix pull up the next message, in an unknown language. She opens the Translator and asks the system to read the message. After a few moments, the translator was unable to translate the message, but brings up another notification. 
+“Planet location identified in messages. Proceed to pinpoint the planet?” You and Belltrix look at each other. She nods.
+"Proceed." You state.
+The translator closed out and the planet locator opened. It took only a few minutes to pinpoint the system and the orbit of the planet.
+“Planet X459, begin route to planet?” Everyone in the room sees the image of the planet. You look over at Bellatrix and you see the shine in her eye. You know if the head research loves the planet, it's the one.
+"So, should we begin our route, Commander?"
+[["Let me think about it."|Walk back]]
 
+::Walk back
+You thank Bellatrix and leave the room. You’re not sure if this is the right decision. What if they ambush your species? What if they attack you with no warning? What if they don't help and let you die? 
+But there's also the question of what if goes right? What if they do help? What if they invite us to live on the planet? What if they help us find a cure?
+You walk into the command room, saluted by the soldiers and sit in your chair. You open the system and the message is still there.
+“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. But the lives of your species may be at risk due to the species that sent the messages. You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+[[“Yes, Proceed.”|Proceed with risk]]
+[[“No, we’ll continue our search.”|Ending: No risk taken]]
+[[Get a second opinion|Second opinion]] 
 
-::System Messager
+::System Messenger
 “Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
 “Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen. You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
 [[“This is disgusting.”|Close Message]]
@@ -134,22 +150,22 @@ Who will you ask?
 You walk up to the soldier standing by the exit of the command room and ask what his opinion is on going to the planet.
 “I believe there is more out there than what messages this species has for us. We can achieve many great things, we’re the Gaxodins. There is nothing we can’t do. Also, if a species already inhabits the planet, we’ll be chased out like the other planets that we have found. It’s best if we continue to search. There’s bound to be something else, right?”
 You walk back to your seat and question: Do you proceed to Planet X459?
-[[“Yes, Proceed.”]]
-[[“No, we’ll continue our search.”]]
+[[“Yes, Proceed.”|Proceed with risk]]
+[[“No, we’ll continue our search.”|Ending: No risk taken]]
 
 ::Bellatrix
 You message Bellatrix over the messenger and ask for her opinion on going to the planet.
 “Commander, to be completely honest with you, we need to go there. If this species is smart enough to communicate with us, forbid the nude images, this can be a breakthrough with our species. We can meet with them and discuss, get resources, and find a cure. We can trade information and grow as a species, along with the other species. It’ll be a win win. We have to take the risk, no matter what. This is it.”
 You thank her and question: Do you proceed to Planet X459?
-[[“Yes, Proceed.”]]
-[[“No, we’ll continue our search.”]]
+[[“Yes, Proceed.”|Proceed with risk]]
+[[“No, we’ll continue our search.”|Ending: No risk taken]]
 
 ::Crew member
 You walk up to a random crew member and ask what her opinion is on going to the planet.
 “I’m neutral about it. We could either go to the species, die or get resources, or we can explore the galaxy, die or find a planet. Either way, there are pros and cons to every situation we run into. But it’s up to you, I’m just here for the ride.” 
 You walk back to your seat and question: Do you proceed to Planet X459?
-[[“Yes, Proceed.”]]
-[[“No, we’ll continue our search.”]]
+[[“Yes, Proceed.”|Proceed with risk]]
+[[“No, we’ll continue our search.”|Ending: No risk taken]]
 
 :: Endings list
 You have recieved the No risk taken ending. Return to the beginning to see the other ending."
