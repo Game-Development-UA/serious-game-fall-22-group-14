@@ -198,7 +198,7 @@ You walk into the laboratory when Bellatrix greets you.
 "We have the channel where the messages come from, shall we tune in?" You nod at Bellatrix as she begins to tune in. You hear the static and the sounds of the unstable frequency until you hear a [[voice.|First Interaction]]
 
 ::First Interaction
-“Hello, Hello, This is Dr. Jackson, from NASA, is anyone there?” The room was silent. No one recognized the language.
+“Hello, Hello, This is Dr. Attwood, from NASA, is anyone there?” The room was silent. No one recognized the language.
 “Hello, Hello, can anybody hear me?” You look over at Bellatrix.
 "Turn on the translator, now!" Bellatrix rushes to the system to turn on the translator. You hear the system tune into the conservation, trying to understand the language being communicated.
 "COMMANDER!" The system continues to indentify the language until you see the results. The screen read:
@@ -207,6 +207,12 @@ Languages identified: 1
 Language: English
 Proceed to translate to Gaxodin when spoken to and translate Gaxodin to English?
 
+[["Wow, how the translator do it so quickly?"|Connection]]
+[["How did the translator know?"|Connection]]
+
+::Connection
+"I was able to connect to a different frequncy that stores information about this planet and languages." You were impressed by Bellatrix's work, considering how quick you rushed to the laboratory.
+"Let me speak to them", you tell Bellatrix. She steps away from the screen and you begin to speak.
 "
 
 
