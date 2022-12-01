@@ -134,7 +134,24 @@ body {
 .forest {
 	background: green;
 }
-*/</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* Stow the sidebar initially
+*/
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* Stow the sidebar initially
 config.ui.stowBarInitially = true;
 */
 
@@ -188,8 +205,9 @@ In that moment
 [[Beep Beep Beep || Disturbance on the Frequency]]</tw-passagedata><tw-passagedata pid="12" name="Disturbance on the Frequency" tags="" position="225,225" size="100,100">While aimlessly clicking through to try and find the exact location of that frequency you notice that the signal you are receiving is from an entity that doesn’t appear to be from any of the planets or stars you are currently observing. Intrgued you try to hone in on the location more and try to find the precise location of the signal.
 &quot;</tw-passagedata><tw-passagedata pid="13" name="StoryInit" tags="" position="350,225" size="100,100">&lt;&lt;set $myVariable to 1&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Introduction" tags="" position="475,225" size="100,100">Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]</tw-passagedata><tw-passagedata pid="15" name="Alien Perspective" tags="" position="600,225" size="100,100">The year is 2027 in Earth years. 
 &lt;&lt;timed 3s&gt;&gt;
-Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease would attack the vital organs, making the disease fatal for many Gaxodin, regardless of health status. As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]] 
-&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="Commander relaxing" tags="" position="725,225" size="100,100">All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
+&lt;span class=&#39;fade-in&#39;&gt; Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease would attack the vital organs, making the disease fatal for many Gaxodin, regardless of health status.&lt;/span&gt;
+&lt;&lt;timed 3s&gt;&gt;
+As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</tw-passagedata><tw-passagedata pid="16" name="Commander relaxing" tags="" position="725,225" size="100,100">All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
 You sit in your chair in the command port, watching the stars pass by. You’ve entered a planetary system about 5000 light years east of your original planet. You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]</tw-passagedata><tw-passagedata pid="17" name="New Messages" tags="" position="850,225" size="100,100">“Commander Drako, it’s Bellatrix.”
 Your attention shifts from the screen to the words being spoken.
 “Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
