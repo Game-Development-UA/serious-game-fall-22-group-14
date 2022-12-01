@@ -6,10 +6,10 @@ The year is 2027 in Earth years.
 <<timed 3s>>
 <span class='fade-in'> Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
 <</timed>>
-<<timed 6s>>
+<<timed 8s>>
 <span class='fade-in'> As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues.</span> 
 <</timed>>
-<<timed 9s>>
+<<timed 15s>>
 <span class='fade-in'>You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</span>
 <</timed>>
 
