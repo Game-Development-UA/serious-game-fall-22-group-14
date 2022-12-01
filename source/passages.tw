@@ -2,6 +2,7 @@
 Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]
 
 :: Alien Perspective
+<<audio "bgm_mainsoundtrack" play>>
 The year is 2027 in Earth years. 
 <<timed 3s>>
 <span class='fade-in'> Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>

@@ -11,3 +11,4 @@ My Twine Game
 
 :: StoryInit
 <<set $myVariable to 1>>
+<<cacheaudio "bgm_mainsoundtrack" "media/space-atmospheric-background-124841.mp3">>
