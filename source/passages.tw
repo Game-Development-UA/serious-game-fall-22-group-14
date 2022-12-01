@@ -1,8 +1,20 @@
+::test 
+Wait three seconds and a clue will appear.
+
+|clue)[This text was hidden when the passage is first shown.]
+
+{(live: 3s)[
+	(show: ?clue)
+	(stop:)
+]}
+
 :: Introduction
 Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]
 
 :: Alien Perspective
-The year is 2027 in Earth years. Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease would attack the vital organs, making the disease fatal for many Gaxodin, regardless of health status. As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]] 
+The year is 2027 in Earth years. 
+
+Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease would attack the vital organs, making the disease fatal for many Gaxodin, regardless of health status. As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]] 
 
 :: Commander relaxing
 All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
