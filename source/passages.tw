@@ -4,11 +4,14 @@ Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] 
 :: Alien Perspective
 The year is 2027 in Earth years. 
 <<timed 3s>>
-<span class='fade-in'> Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
+<span class='fade-in'> Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
 <</timed>>
 <<timed 3s>>
-<span class='fade-in'>As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</span>
+<span class='fade-in'> As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</span>
 <</timed>>
+
+::disease explain
+This disease is a virus called Phthifectio Mornoma. This virus would attack 
 
 :: Commander relaxing
 All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
