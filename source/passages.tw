@@ -2,22 +2,29 @@
 Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]
 
 :: Alien Perspective
-<<audio "bgm_mainsoundtrack" play>>
 The year is 2027 in Earth years. 
 <<timed 3s>>
-<span class='fade-in'> Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
+<span class='fade-in'>Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
 <</timed>>
 <<timed 8s>>
-<span class='fade-in'> As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues.</span> 
+<span class='fade-in'>As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues.</span> 
 <</timed>>
 <<timed 15s>>
 <span class='fade-in'>You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</span>
 <</timed>>
 
 ::disease explain
-This disease is a virus called Phthifectio Mornoma. This virus would first attack the Gaxodin's lungs, bringing down the nitrogen levels in the lungs. With the lack of nitrogen in the lungs, it would cause their blood to slow, clogging the  
-
-
+This disease is a virus called Phthifectio Mornoma. 
+<<timed 3s>>
+<span class='fade-in'>This virus would first attack the Gaxodin's vinema (lungs), bringing down the nitrogen levels in the vinema.</span>   
+<</timed>>
+<<timed 6s>>
+<span class='fade-in'>With the lack of nitrogen in the vinema, it would cause their lenro (blood) to slow, clogging the lenro flow and causing the etos (organs) to fail.</span>
+<<timed>>
+<<timed 11s>>
+<span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
+2357 to be exact.</span>
+<</timed>>
 ::Athorth
 
 
