@@ -10,7 +10,7 @@ The year is 2027 in Earth years.
 <span class='fade-in'>As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues.</span> 
 <</timed>>
 <<timed 15s>>
-<span class='fade-in'>You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]]</span>
+<span class='fade-in'>You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food|food]] and [[resources.|Commander relaxing]]</span>
 <</timed>>
 
 ::disease explain
@@ -23,10 +23,13 @@ This disease is a virus called Phthifectio Mornoma.
 <</timed>>
 <<timed 11s>>
 <span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
-2357 to be exact.</span>
+2357 to be [[exact.|Alien Perspective]]</span>
 <</timed>>
 ::Athorth
 
+
+::food 
+All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the food.
 
 :: Commander relaxing
 All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
