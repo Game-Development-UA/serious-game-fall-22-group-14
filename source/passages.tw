@@ -23,18 +23,21 @@ This disease is a virus called Phthifectio Mornoma.
 <</timed>>
 <<timed 11s>>
 <span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
-2357 to be [[exact.|Alien Perspective]]</span>
+2357 to be [[exact.|Alien Perspective]] No cure has been found.</span>
 <</timed>>
 ::Athorth
 
-
 ::food 
-All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the food.
+All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the [[food.|Alien Perspective]]
 
 :: Commander relaxing
-All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
-You sit in your chair in the command port, watching the stars pass by. You’ve entered a planetary system about 5000 light years east of your original planet. You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]
-
+You sit in your chair in the command port, watching the stars pass by. 
+<<timed 3s>>
+<span class='fade-in'>You’ve entered a planetary system about 5000 light years east of your original planet.</span>
+<</timed>>
+<<timed 7s>> 
+<span class='fade-in'>You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]</span>
+<</timed>>
 :: New Messages
 “Commander Drako, it’s Bellatrix.”
 Your attention shifts from the screen to the words being spoken.
