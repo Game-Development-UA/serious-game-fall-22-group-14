@@ -54,6 +54,7 @@ You sit in your chair in the command port, watching the stars pass by.
 [[“What’s happening?”|Concern]]
 [[“Let me guess, Gan released the animal we captured again.”|Release that weird animal]]
 <</timed>>
+
 ::Sarcasm
 Bellatrix meets you with silence, as if she’s giving you the most menacing look through the intercom.
 <timed 5s>>
@@ -121,16 +122,22 @@ Bellatrix opens the first message that was sent. It was two images of a species 
 
 ::Rude
 “I have no idea, sir.”
+<<timed 2s>>
 “Well this species has a weird way of saying hello, I hope this isn’t common in their [[species.”|Off the screen]]
+<</timed>>
 
 ::Ew
 Bellatrix had a face of disgust, looking at you, knowing you felt the same about the images. 
 “Can we take these down?” Bellatrix asked.
+<<timed 2s>>
 “PLEASE!!!” Everyone [[exclaimed.|Off the screen]]
+<</timed>>
 
 ::What is it?
 “These are nudes images of a different species.” Bellatrix stated.
+<<timed 2s>>
 “Yeah, get those images off screen, [[please.”|Off the screen]] 
+<</timed>>
 
 ::Off the screen
 Bellatrix exits out of the message and you hear the sigh of relief from the researchers, as well as murmurs about how gross it was to even view those images.
