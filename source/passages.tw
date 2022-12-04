@@ -114,12 +114,12 @@ Your thoughts continue to ponder as you enter the room. Bellatrix greets you as 
 <<timed 22s>>
 Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
 <</timed>>
-
+<<timed 26s>>
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
 [[“My goodness, that’s disgusting.”|Ew]]
 [[“What is this?”|What is it?]]
-
+<</timed>>
 ::Rude
 “I have no idea, sir.”
 <<timed 2s>>
@@ -141,23 +141,78 @@ Bellatrix had a face of disgust, looking at you, knowing you felt the same about
 
 ::Off the screen
 Bellatrix exits out of the message and you hear the sigh of relief from the researchers, as well as murmurs about how gross it was to even view those images.
+<<timed 5s>>
 "Can you load in the next message?" You asked Bellatrix.
-"Sure, let me pull it up." Bellatrix pull up the next message, in an unknown language. She opens the Translator and asks the system to read the message. After a few moments, the translator was unable to translate the message, but brings up another notification. 
-“Planet location identified in messages. Proceed to pinpoint the planet?” You and Belltrix look at each other. She nods.
-"Proceed." You state.
-The translator closed out and the planet locator opened. It took only a few minutes to pinpoint the system and the orbit of the planet.
-“Planet X459, begin route to planet?” Everyone in the room sees the image of the planet. You look over at Bellatrix and you see the shine in her eye. You know if the head research loves the planet, it's the one.
-"So, should we begin our route, Commander?"
-[["Let me think about it."|Walk back]]
+<</timed>>
+<<timed 7s>>
+"Sure, let me pull it up." Bellatrix pull up the next message, in an unknown language. She opens the Translator and asks the system to read the message.
+<</timed>>
+<<timed 12s>>
+"This is going to take a few moments, if you have other business to do, feel free to leave." Bellatrix stated.
+[["I don't mind waiting"|Bust]]
+[["Of course, let me know if you get it translated"|Now what]]
+<</timed>>
+
+::Now what
+What would you like to do in the mean time?
+[[Explore the laboratory|Laboratory stuff]]
+[[Go to the Mess Hall|Mess Hall]]
+[[Go see Anaet|Anaet]]
+
+::Bust
+After standing there, wasting your life away, the translator was unable to read the language.
+<<timed 4s>>
+"Shit." Bellatrix cussed.
+<</timed>>
+<<timed 5s>>
+[[Isn't there anything else you can do|Planet Locator]]
+[[Wow, great job|Argument]]
+
+::Planet locator
+"Yeah, I can use the planet locator to see where the messages came from." Bellatrix said.
+<<timed 3s>>
+"Perfect. Get it running." You stated.
+Bellatrix pulled up the Planet Locator. She grabbed the message with unknown language and insert it into the locator, hoping to find the sender.
+<</timed>>
+<<timed 10s>>
+The planet was found after a few moments, bringing up the exact corrdinates.
+The image of the planet showed up on the screen, the blue and green was beautiful.
+"So, should we get the corrdinates loaded and be on our way?"
+[["Let me think about it."|Walk Back]]
+<</timed>>
+::Argument
 
 ::Walk back
-You thank Bellatrix and leave the room. You’re not sure if this is the right decision. What if they ambush your species? What if they attack you with no warning? What if they don't help and let you die? 
-But there's also the question of what if goes right? What if they do help? What if they invite us to live on the planet? What if they help us find a cure?
-You walk into the command room, saluted by the soldiers and sit in your chair. You open the system and the message is still there.
-“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. But the lives of your species may be at risk due to the species that sent the messages. You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+You thank Bellatrix and leave the room. You’re not sure if this is the right decision.
+<<timed 3s>> 
+<span class='fade-in'>What if they ambush your species?</span>
+<</timed>>
+<<timed 5s>> 
+<span class='fade-in'>What if they attack you with no warning?</span> 
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What if they don't help and let you die?</span> 
+<</timed>>
+<<timed 9s>>
+But there's also the question of what if goes right? 
+<</timed>>
+<<timed 11s>>
+What if they do help? What if they invite us to live on the planet?
+<</timed>>
+<<timed 13s>>
+What if they help us find a cure?
+<</timed>>
+<<timed 15s>>
+You walk into the command room, saluted by the soldiers and sit in your chair. You open the system and load the planet locator.
+<</timed>>
+“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. 
+But the lives of your species may be at risk due to the species that sent the messages.
+You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+<<timed 25s>>
 [[“Yes, Proceed.”|Proceed with risk]]
 [[“No, we’ll continue our search.”|Ending: No risk taken]]
 [[Get a second opinion|Second opinion]] 
+<</timed>>
 
 ::System Messenger
 “Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
