@@ -68,22 +68,51 @@ Bellatrix meets you with silence, as if she’s giving you the most menacing loo
 
 ::Concern
 “We just received messages. Several of them to be exact.”
+<<timed 2s>>
 “Is it from any Gaxodin?”
+<</timed>>
+<<timed 4s>>
 “No, they’re all from an unknown location. We can not pinpoint where exactly the messages are from. You might want to look at them.”
+<</timed>>
 
 [[“Okay, I’ll make my way over to the laboratory.”|Laboratory]]
 [[“Can you send the messages over the system?”|System Messenger]]
 
 ::Release that weird animal
 “Yes, but we have others taking care of that.”
+<<timed 2s>>
 “So what’s the [[urgency?”|Concern]]
+<</timed>>
 
 ::Laboratory
-You stretch your arms and legs before you stand up from your chair to leave the room.The soldiers salute you as you leave the commanding room. Many thoughts rush through your mind as you walk down the metal corridors with a purplish glow. What could these messages have that may help or end us? Who is it from? What do these messages want from us? Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
+You stretch your arms and legs before you stand up from your chair to leave the room.The soldiers salute you as you leave the commanding room. 
+<<timed 5s>>
+<span class='fade-in'>Many thoughts rush through your mind as you walk down the metal corridors with a purplish glow.</span>
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What could these messages have that may help or end us?</span>
+<</timed>>
+<<timed 9s>>
+<span class='fade-in'>Who is it from?</span> 
+<</timed>>
+<<timed 11s>>
+<span class='fade-in'>What do these messages want from us?</span> 
+<</timed>>
+<<timed 13s>>
+Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
+<</timed>>
+<<timed 17s>>
 “Have any of the messages been open?” you asked.
+<</timed>>
+<<timed 19s>>
 “None of them, Commander.”
+<</timed>>
+<<timed 20s>>
 “Go ahead and open the first message.”
+<</timed>>
+<<timed 22s>>
 Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
+<</timed>>
 
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
