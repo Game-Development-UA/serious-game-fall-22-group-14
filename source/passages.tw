@@ -49,11 +49,11 @@ You sit in your chair in the command port, watching the stars pass by.
 <<timed 9s>>
 “Commander, this is urgent.”
 <</timed>>
-
+<<timed 10s>>
 [[“What is soooo urgent that you need to communicate over the intercom?” *insert sarcasm|Sarcasm]]
 [[“What’s happening?”|Concern]]
 [[“Let me guess, Gan released the animal we captured again.”|Release that weird animal]]
-
+<</timed>>
 ::Sarcasm
 Bellatrix meets you with silence, as if she’s giving you the most menacing look through the intercom.
 <timed 5s>>
