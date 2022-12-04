@@ -25,7 +25,6 @@ This disease is a virus called Phthifectio Mornoma.
 <span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
 2357 to be [[exact.|Alien Perspective]] No cure has been found.</span>
 <</timed>>
-::Athorth
 
 ::food 
 All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the [[food.|Alien Perspective]]
@@ -38,20 +37,34 @@ You sit in your chair in the command port, watching the stars pass by.
 <<timed 7s>> 
 <span class='fade-in'>You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]</span>
 <</timed>>
+
 :: New Messages
-“Commander Drako, it’s Bellatrix.”
-Your attention shifts from the screen to the words being spoken.
+“Commander Drako, it’s Bellatrix.” Your attention shifts from the screen to the words being spoken.
+<<timed 3s>>
 “Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
+<</timed>>
+<<timed 6s>>
+“Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
+<</timed>>
+<<timed 9s>>
 “Commander, this is urgent.”
+<</timed>>
 
 [[“What is soooo urgent that you need to communicate over the intercom?” *insert sarcasm|Sarcasm]]
 [[“What’s happening?”|Concern]]
 [[“Let me guess, Gan released the animal we captured again.”|Release that weird animal]]
+
 ::Sarcasm
 Bellatrix meets you with silence, as if she’s giving you the most menacing look through the intercom.
+<timed 5s>>
 “Bellatrix, you’re being serious, aren’t you?”
+<</timed>>
+<<timed 7s>>
 “Yes, obviously.” You internally curse yourself for your foolishness.
+<</timed>>
+<<timed 9s>>
 “So what’s the [[urgency?”|Concern]]
+<</timed>>
 
 ::Concern
 “We just received messages. Several of them to be exact.”
