@@ -457,36 +457,64 @@ You walk back to your seat and question: Do you proceed to Planet X459?
 
 ::Communication
 "Bellatrix, can you possibly find a way to talk to them?"
+<<timed 2s>>
 "Like send a message?"
+<</timed>>
+<<timed 3s>>
 "No... talk to them in real time." Bellatrix was silent for a moment before she responded.
+<</timed>>
+<<timed 9s>>
 "I can try, we just need to connect the frequency to the one that was sent out."
-"Do everything you can, I'll meet you in the lab so we can meet this... species." 
+<</timed>>
+<<timed 12s>>
+"Do everything you can, I'll meet you in the lab so we can meet this... species."
+<</timed>>
+<<timed 15s>> 
 "Understood Commander." You leave the command room and walk over to the laboratory quickly, hoping to arrive in time for the frequencies to match.
 You walk into the laboratory when Bellatrix greets you.
+<</timed>>
+<<timed 20s>>
 "We have the channel where the messages come from, shall we tune in?" You nod at Bellatrix as she begins to tune in. You hear the static and the sounds of the unstable frequency until you hear a [[voice.|First Interaction]]
+<</timed>>
 
 ::First Interaction
 “Hello, Hello, This is Dr. Attwood, from NASA, is anyone there?” The room was silent. No one recognized the language.
+<<timed 3s>>
 “Hello, Hello, can anybody hear me?” You look over at Bellatrix.
+<</timed>>
+<<timed 5s>>
 "Turn on the translator, now!" Bellatrix rushes to the system to turn on the translator. You hear the system tune into the conservation, trying to understand the language being communicated.
+<</timed>>
+<<timed 8s>>
 "COMMANDER!" The system continues to identify the language until you see the results. The screen read:
 Species: Human
 Languages identified: 1
 Language: English
 Proceed to translate to Gaxodin when spoken to and translate Gaxodin to English?
+<</timed>>
+<<timed 13s>>
 
 [["Wow, how the translator do it so quickly?"|Connection]]
 [["How did the translator know?"|Connection]]
+<</timed>>
 
 ::Connection
-"I was able to connect to a different frequncy that stores information about this planet and languages." You were impressed by Bellatrix's work, considering how quick you rushed to the laboratory.
+"I was able to connect to a different frequncy that stores information about this planet and languages. It's actually right by us." You were impressed by Bellatrix's work, considering how quick you rushed to the laboratory.
+<</timed>>
+<<timed 5s>>
 "Let me speak to them", you tell Bellatrix. She steps away from the screen and you begin to speak.
+<</timed>>
+<<timed 8s>>
 "Hello, this is Commmander Drako from the Gaxodins Species, who I am speaking to?" You asked over the [[intercom.|Dr. Attwood]]
+<</timed>>
 
 ::Dr. Attwood
-
 “Ummm... hi? I’m Dr. Atwood... Nice to meet you I guess?” The specimen was awkward, it made you unsure of even communicating with Attwood, but you needed answers.
+<</timed>>
+<<timed 5s>>
 “Dr. Attwood? Before we start our discussion, are these nude photos you sent yours?” Bellatrix punched your arm and gave you a dirty look. Both of you bickered about how inappropriate the question and that it may ruin your chances of success.
+<</timed>>
+<<timed 10s>>
 Dr. Attwood then began to [[explain.|Explaination]]
 
 ::Explaination
