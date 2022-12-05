@@ -285,13 +285,14 @@ You find the translator and enter the messages into the translator. The translat
 What should you do?
 [[Give up|Give up]]
 [[Use the Planet Locator|Using the Planet Locator]]
-[[Ask Bellatrix for help|Help from Bella]]
+[[Ask Bellatrix for help|What]]
 
 ::Give up
 
 ::Help from Bella
 
 ::Using the Planet Locator
+You open the planet locator on the 
 “Planet location identified in messages. Proceed to pinpoint the planet?” The system asked.
 This brought you to sit up in your chair.
 “Yes, proceed.”
@@ -302,19 +303,34 @@ The translator closed out and the planet locator opened. It took only a few minu
 [[Get a second opinion|Second opinion]] 
 
 ::Sending message
-Everyone looks at you confused, before they open the messages. As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
+Everyone looks at you confused, before they open the messages.
+As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
+<<timed 5s>>
 “Commander, the hell?! Why did you send that?!” One crew member asked disgustedly.
+<</timed>>
+<<timed 8s>>
 “I had to see it, so do you. You can delete it, you know.” They all looked at you weird, then proceeded to delete the [[messages.|Close Message]]
+<</timed>>
 
 ::What?
 You call Bellatrix over the intercom. She picks up immediately.
+<<timed 2s>>
 “Yes, Commander Drako?”
+<</timed>>
+<<timed 3s>>
 “What is the first message?” Bellatrix was silent until you heard a quiet “ew”.
 “This species must have shot out nude images into space for some weird reason”
+<</timed>>
+<<timed 6s>>
 “Do we know the name of this species”
+<</timed>>
+<<timed 8s>>
 “No sir we do not but we do know a general area of where these pics were sent from.”
+<</timed>>
+<<timed 10s>>
 [[“Let me guess another galaxy that will take another 50 years to get to”|Not too far]]
 [[“Tell me where it was sent from”|Not too far]]
+<</timed>>
 
 ::Not too far
 “It was sent from two systems over.”
@@ -325,7 +341,7 @@ The system opened up the planet locator and you see the planet that the messages
 [[“This species better be helpful, and hopefully not nude.”|Nude species]]
 
 ::Nude species
-[[“I agree these nude species are driving me crazy.”|Proced with risk]]
+[[“I agree these nude species are driving me crazy.”|Proceed with risk]]
 
 ::Proceed with risk
 “Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
