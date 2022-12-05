@@ -2,45 +2,117 @@
 Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]
 
 :: Alien Perspective
-The year is 2027 in Earth years. Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly disease took out 99.99% of your species. This disease would attack the vital organs, making the disease fatal for many Gaxodin, regardless of health status. As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues. You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food and resources.|Commander relaxing]] 
+The year is 2027 in Earth years. 
+<<timed 3s>>
+<span class='fade-in'>Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
+<</timed>>
+<<timed 8s>>
+<span class='fade-in'>As the leader of your species, it’s been difficult to find a new planet that meets all of the requirements for habitability. Each planet your research team has landed on either had hostile species that would kill the members researching, or they would pass due to atmosphere issues.</span> 
+<</timed>>
+<<timed 15s>>
+<span class='fade-in'>You’ve been worried about the remainder on your ship, fearing that reproduction will become impossible due to [[low food|food]] and [[resources.|Commander relaxing]]</span>
+<</timed>>
+
+::disease explain
+This disease is a virus called Phthifectio Mornoma. 
+<<timed 3s>>
+<span class='fade-in'>This virus would first attack the Gaxodin's vinema (lungs), bringing down the nitrogen levels in the vinema.</span>   
+<</timed>>
+<<timed 6s>>
+<span class='fade-in'>With the lack of nitrogen in the vinema, it would cause their lenro (blood) to slow, clogging the lenro flow and causing the etos (organs) to fail.</span>
+<</timed>>
+<<timed 11s>>
+<span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
+2357 to be [[exact.|Alien Perspective]] No cure has been found.</span>
+<</timed>>
+
+::food 
+All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the [[food.|Alien Perspective]]
 
 :: Commander relaxing
-All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied.
-You sit in your chair in the command port, watching the stars pass by. You’ve entered a planetary system about 5000 light years east of your original planet. You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]
+You sit in your chair in the command port, watching the stars pass by. 
+<<timed 3s>>
+<span class='fade-in'>You’ve entered a planetary system about 5000 light years east of your original planet.</span>
+<</timed>>
+<<timed 7s>> 
+<span class='fade-in'>You scroll through your holographic screen, bored and searching through many failed reports. As you swipe through each failed analysis, your head researcher contacts you over the [[intercom.|New Messages]]</span>
+<</timed>>
 
 :: New Messages
-“Commander Drako, it’s Bellatrix.”
-Your attention shifts from the screen to the words being spoken.
+“Commander Drako, it’s Bellatrix.” Your attention shifts from the screen to the words being spoken.
+<<timed 3s>>
 “Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
+<</timed>>
+<<timed 6s>>
+“Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
+<</timed>>
+<<timed 9s>>
 “Commander, this is urgent.”
-
+<</timed>>
+<<timed 10s>>
 [[“What is soooo urgent that you need to communicate over the intercom?” *insert sarcasm|Sarcasm]]
 [[“What’s happening?”|Concern]]
 [[“Let me guess, Gan released the animal we captured again.”|Release that weird animal]]
+<</timed>>
 ::Sarcasm
 Bellatrix meets you with silence, as if she’s giving you the most menacing look through the intercom.
+<timed 5s>>
 “Bellatrix, you’re being serious, aren’t you?”
+<</timed>>
+<<timed 7s>>
 “Yes, obviously.” You internally curse yourself for your foolishness.
+<</timed>>
+<<timed 9s>>
 “So what’s the [[urgency?”|Concern]]
+<</timed>>
 
 ::Concern
 “We just received messages. Several of them to be exact.”
+<<timed 2s>>
 “Is it from any Gaxodin?”
+<</timed>>
+<<timed 4s>>
 “No, they’re all from an unknown location. We can not pinpoint where exactly the messages are from. You might want to look at them.”
+<</timed>>
 
 [[“Okay, I’ll make my way over to the laboratory.”|Laboratory]]
 [[“Can you send the messages over the system?”|System Messenger]]
 
 ::Release that weird animal
 “Yes, but we have others taking care of that.”
+<<timed 2s>>
 “So what’s the [[urgency?”|Concern]]
+<</timed>>
 
 ::Laboratory
-You stretch your arms and legs before you stand up from your chair to leave the room.The soldiers salute you as you leave the commanding room. Many thoughts rush through your mind as you walk down the metal corridors with a purplish glow. What could these messages have that may help or end us? Who is it from? What do these messages want from us? Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
+You stretch your arms and legs before you stand up from your chair to leave the room.The soldiers salute you as you leave the commanding room. 
+<<timed 5s>>
+<span class='fade-in'>Many thoughts rush through your mind as you walk down the metal corridors with a purplish glow.</span>
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What could these messages have that may help or end us?</span>
+<</timed>>
+<<timed 9s>>
+<span class='fade-in'>Who is it from?</span> 
+<</timed>>
+<<timed 11s>>
+<span class='fade-in'>What do these messages want from us?</span> 
+<</timed>>
+<<timed 13s>>
+Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
+<</timed>>
+<<timed 17s>>
 “Have any of the messages been open?” you asked.
+<</timed>>
+<<timed 19s>>
 “None of them, Commander.”
+<</timed>>
+<<timed 20s>>
 “Go ahead and open the first message.”
+<</timed>>
+<<timed 22s>>
 Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
+<</timed>>
 
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
