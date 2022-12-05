@@ -334,50 +334,99 @@ You call Bellatrix over the intercom. She picks up immediately.
 
 ::Not too far
 “It was sent from two systems over.”
-“We can be there in the next day if we have no more fuck up’s on the ship, like last time." Bellatrix stated. You remember last time the ship did a jump. Two out of six reactors were down for months after the space jump. Luckily, they're back up, but the worry that more reactors would go down after the jump would worry you.
-The system opened up the planet locator and you see the planet that the messages were sent from: Planet X459.
+<<timed 2s>>
+“We can be there in the next day if we have no more fuck up’s on the ship, like last time." Bellatrix stated.
+<</timed>>
+<<timed 6s>>
+You remember last time the ship did a jump. Two out of six reactors were down for months after the space jump. Luckily, they're back up, but the worry that more reactors would go down after the jump would worry you.
+<</timed>>
+<<timed 10s>>
+Bellatrix sent you a message and you open it. The system opened up the planet locator and you see the planet that the messages were sent from: Planet X459.
+<</timed>>
+<<timed 15ss>>
 “Planet X459, begin route to planet?” 
+<</timed>>
+<<timed 17s>>
 [[“Wow i was not expecting that lets get to it”|Proceed with risk]]
 [[“This species better be helpful, and hopefully not nude.”|Nude species]]
-
+<</timed>>
 ::Nude species
 [[“I agree these nude species are driving me crazy.”|Proceed with risk]]
 
 ::Proceed with risk
-“Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
+“Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems.
+<<timed 3s>>
 “Commander.” You look to see your head weapons coordinator.
 “Should we start our weapons system as well? We don’t know who they are and what motives they have.”
+<</timed>>
+<<timed 7s>>
 [[“Go ahead, we can’t trust this species.”|Ready to go]]
 [[“No, if we go in as a threat, we’ll be treated as such. It’s too big of a risk.”|To see the beyond]]
+<</timed>>
 
 ::Ready to go
 The head weapons coordinator loads the weapons system.
 “Give me the green light when everything is set.”
+<<timed 4s>>
 You pull up the system's screen to see if every light is green. Every light was green and set.
 “Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through. 
-"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
-You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.
+<</timed>>
+<<timed 10s>>
+"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. 
+<</timed>>
+<<timed 14s>>
+The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
+<</timed>>
+<<timed 20s>>
+<span class='fade-in'>You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.</span
+<</timed>>
+<<timed 24s>>
 "Commander, are you seeing this?" Bellatrix asked over intercom.
+<</timed>>
+<<timed 27s>>
 "Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]\]]]]]]]]]]]]]]]]
-
-
+<</timed>>
 
 ::To see the beyond
 “Give me the green light when everything is set.”
-You pull up the system's screen to see if every light is green. Every light was green and set, except for the weapon’s system.
-“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through.
-"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
-You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.
+<<timed 2s>>
+You pull up the system's screen to see if every light is green. Every light was green and set.
+“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through. 
+<</timed>>
+<<timed 8s>>
+"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. 
+<</timed>>
+<<timed 12s>>
+The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
+<</timed>>
+<<timed 18s>>
+<span class='fade-in'>You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.</span
+<</timed>>
+<<timed 22Ss>>
 "Commander, are you seeing this?" Bellatrix asked over intercom.
-"Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]
+<</timed>>
+<<timed 27s>>
+"Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]\]]]]]]]]]]]]]]]]
+<</timed>>
 
 
 ::Ending: No risk taken
-The system hears the request and shuts down. The crew looks at you as if you made the worst mistake in history. You look at them. It was a moment until you barked at them to get back to work. You slouch in your chair and sigh. You couldn’t bear to risk it all and let your species die at the hands of an unknown species. You were sure there has to be another planet that can give your species everything needed. Right? You search elsewhere in the galaxy, only for your species to die from hunger and starvation. 
+The system hears the request and shuts down. The crew looks at you as if you made the worst mistake in history. You look at them. It was a moment until you barked at them to get back to work. You slouch in your chair and sigh. You couldn’t bear to risk it all and let your species die at the hands of an unknown species. 
+<</timed>>
+<<timed 7s>>
+You were sure there has to be another planet that can give your species everything needed. Right? You search elsewhere in the galaxy, only for your species to die from hunger and starvation. 
+<</timed>>
+<<timed 12s>>
 You were the last one alive with only a barely functioning system. All of the remaining bodies were enclosed in the bay, where they all laid, and died horribly from your mistake. You should have taken that risk and you knew the moment they all began to die. You blinked at the screen and said your final words,
-“System… Self destruct…Nothing can be left behind.” 
-The system began its sequence, overloading the reactors and exploding everything.
-You heard the exploding happening in the various rooms behind you. You closed your eyes and drawed your final breath, as the plasma flames took over the room and destroyed the ship [[completely.|Endings list]] 
+<</timed>>
+<<timed 17s>>
+<span class='fade-in'>“System… Self destruct…Nothing can be left behind.”</span> 
+<</timed>>
+<<timed 20s>>
+<span class='fade-in'>The system began its sequence, overloading the reactors and exploding everything.</span>
+<</timed>>
+<<timed 21s>>
+<span class='fade-in'>You heard the exploding happening in the various rooms behind you. You closed your eyes and drawed your final breath, as the plasma flames took over the room and destroyed the ship [[completely.|Endings list]]</span> 
 
 ::Second opinion
 Who will you ask?
