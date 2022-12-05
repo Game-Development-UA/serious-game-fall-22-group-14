@@ -215,14 +215,83 @@ You’re not sure how advanced they are, but you can assume that they have techn
 <</timed>>
 
 ::System Messenger
-“Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
-“Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen. You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
+“Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent. 
+<<timed 3s>>
+<span class='fade-in'>What could these messages have that may help or end us?</span>
+<</timed>>
+<<timed 5s>> 
+<span class='fade-in'>Who is it from?</span>
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What do these messages want from us?</span>
+<</timed>>
+<<timed 9s>> 
+You zone back in and look at the screen of the series of messages sent to you. 
+<</timed>>
+<<timed 11s>>
+“Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen.
+There are multiple messages on the screen. Which one do you want to look at first?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::First Message
+You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
 [[“This is disgusting.”|Close Message]]
 [[Send message to everyone in the command room|Sending message]]
 [[“What is this?”|What?]] 
 
+::Second Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::Third Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::Fourth Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fifth Message|Fifth Message]]
+
+::Fifth MessageIt's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+
 ::Close Message
-You close the messages and begin to open the other messages that were sent. When you opened them, you saw a language that was not familiar at all. You pull up another holographic screen, looking through the system for a translator. You find the translator and enter the messages into the translator. The translator took a moment to find the translation, but it was not in the system.You were at a loss until the translator on the screen brought something up.
+You close the message and begin to open the other messages that were sent. 
+<<timed 2s>>
+When you opened them, you saw a language that was not familiar at all. 
+<</timed>>
+<<timed 4s>>
+You pull up another holographic screen, looking through the system for a translator. 
+<</timed>>
+<<timed 6s>>
+You find the translator and enter the messages into the translator. The translator took a moment to find the translation, but it was not in the system.
+<</timed>>
+<<timed 8s>>
+What should you do?
+[[Give up|Give up]]
+[[Use the Planet Locator|Using the Planet Locator]]
+[[Ask Bellatrix for help|Help from Bella]]
+
+::Give up
+
+::Help from Bella
+
+::Using the Planet Locator
 “Planet location identified in messages. Proceed to pinpoint the planet?” The system asked.
 This brought you to sit up in your chair.
 “Yes, proceed.”
