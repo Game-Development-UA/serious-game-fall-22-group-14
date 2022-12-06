@@ -32,11 +32,11 @@ This disease is a virus called Phthifectio Mornoma.
 <</timed>>
 <<timed 11s>>
 <span class='fade-in'>Millions of Gaxodins passed from the virus, causing the healthiest to flew, yet a lack a resources in space have left others to die.
-2357 to be [[exact.|Alien Perspective]] No cure has been found.</span>
+2357 to be <<return "exact,">> No cure has been found.</span>
 <</timed>>
 
 ::food 
-All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the [[food.|Alien Perspective]]
+All of the food your team has collected either poisons the ingestion systems or barely any nutritional value to keep any Gaxodin satisfied. And the food from your planet, Athorth, was destoryed, due the virus infecting the <<return "food.">>
 
 :: Commander relaxing
 You sit in your chair in the command port, watching the stars pass by. 
@@ -48,7 +48,7 @@ You sit in your chair in the command port, watching the stars pass by.
 <</timed>>
 
 :: New Messages
-“Commander Drako, it’s Bellatrix.” Your attention shifts from the screen to the words being spoken.
+“Commander $name, it’s Bellatrix.” Your attention shifts from the screen to the words being spoken.
 <<timed 3s>>
 “Bellatrix, why are you communicating over the intercom when we established to communicate with the message system only?”
 <</timed>>
@@ -249,6 +249,7 @@ You decide to use the images. It's not the best bet, but it's worth a shot. You 
 <<timed 5s>>
 You hated it those images, but it was better than nothing. After you put the images in, it begins to process. After a minute, the locator [[fails on you.|defeat]]
 <</timed>>
+
 ::defeat
 Bellatrix laughs in your face.
 "I knew it!!" She snags the screen out of your hand and begins to do her thng.
@@ -425,7 +426,7 @@ You find the translator and enter the messages into the translator. The translat
 What should you do?
 [[Give up|Give up]]
 [[Use the Planet Locator|Using the Planet Locator]]
-[[Ask Bellatrix for help|What]]
+[[Ask Bellatrix for help|What?]]
 
 ::Give up
 You decide that it isn't worth it to fuss over, so you gave up. [[Congrats, everyone is dead now.|Ending list]]

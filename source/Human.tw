@@ -2,38 +2,99 @@
 Let your name be known to the world
 <<textbox "$name" " " [[Human Introduction]]>>
 
+
 :: Human Introduction
-The year is 2027, You are Dr. Charlie Attwood, an ambitious astrophysicist, living through your normal Tuesday routine, which includes observing and analyzing celestial bodies. You are currently searching for life on other planets in the universe, monotonously clicking and reading the same files and reports that tell you nothing. Your goal really is to find some form of celestial life anywhere. This discovery could change the way humans understand the universes and their contents. But here you are with no more information than you had yesturday. [[Scanning Frequencies | Scanning Frequencies]]
+Hello $name, ready to embark on your journey?
+
+[[Yes |Human Stats]]
+[[No |Introduction]]
+
+:: Human Stats
+<<set $stress = 1>><<set $time = 24>><<set $numTest = 0>><<set $AlienTension = 1>> You currently have a stress level of $stress, and $time hours left to prove alien life exists or your project is shut down for good. Good Luck.
+
+<i>Hint: Try to keep stress under 10 and time above 10, or things might get tense</i>
+
+[[Start |Prologue]]
+
+:: Prologue
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+<<timed 3s>>
+<span class='fade-in'>The year is 2027, You are Dr. $name, an ambitious astrophysicist, living through your normal Tuesday routine, which includes observing and analyzing celestial bodies</span>. 
+<</timed>>
+<<timed 8s>>
+<span class='fade-in'>You are currently searching for life on other planets in the universe, monotonously clicking and reading the same files and reports that tell you nothing. </span> 
+<</timed>>
+<<timed 15s>>
+
+<span class='fade-in'>Your goal really is to find some form of celestial life anywhere and quickly too. This discovery could change the way humans understand the universes and its contents. But here you are with no more information than you had yesturday. 
+[[Check Time Remaining|Check Time]]
+[[Think about Methods For finding Aliens|Think of Methods]]
+[[Falsify Alien Life to boss |Lie About Aliens]]
+[[Scanning Frequencies |Scanning Frequencies]]
+</span>
+<</timed>>
+
+::Check Time
+You have $time hours left before your're shut down for good. <<return "Back">>
+
+::Think of Methods
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+"What if I changed the frequencies that I was sending out"
+"What if Alien tech operate on muh higher out puts"
+
+Thinking about ways to find aliens helped calm you down and you were able to come up with some methods that you are now cnfident in.
+
+<<set $stress = $stress - 1>>
+<<return "Back">>
+
+::Lie About Aliens
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+You think what If you just told the higher ups that you found aliens, but in reality you're trying to keep your funding. 
+
+But unfortunately they are no fools and decide to cut your time down by 5 hours. <<set $time = $time - 5>> You now only have $time hours remaining <<set $stress = $stress + 2>>
+<<return "Back">>
 
 :: Scanning Frequencies
-Something id different today, and you know it. 
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+Something is different today, and you know it. But is this just esperation setting in.<<set $time = $time - 2>>
+
 “I’m dying for something interesting to happen already”
 “But todays the day, I can feel it”
-You hear your colleagues walking into the room.
-[[Distant Conversation | Distant Conversation]]
+
+You hear your colleagues walking into the room. You can hear them having a [[distant Conversation |Distant Conversation]] about god knows what, but since you've got nothing better to do you listen to them. 
 
 :: Distant Conversation
-“You know that signal Charlie is always watching?”
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+<<set $time = $time - 1 * $stress>>
+“You know that signal $name is always watching?”
 “Yeah- “
 “What about my signal?”
-Curious to find out what your two colleagues have done this time to cause trouble for their so called "Entertainment" you press for moe informaion as this time it sound liky you are directly involved with their schemes, unfortunately. 
-If only they were this dedicated in helping to make contact with extraterestrial life forms.
-[[Press for more information | More Information]]
+
+Curious to know what your two colleagues have done this time to cause trouble for their so called "Entertainment" you [[press for more information |More Information]] as this time it sound like you are directly involved with their schemes, unfortunately. 
+
+If only they were this dedicated in helping to make contact with extraterestrial life forms like they should be.
+
 
 :: More Information 
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 Your colleage Dr. Lewis Martin or as he likes to be called "Lew Lew" turns to you to continue the Conversation
 “Well, I happened to have sent something through on it last week”
 slight concern for what this might be
 “What was it?”
-[[Keep Listening | Listen to conversation]]
-[[Ignore Them | Ignore Conversation]]
+[[Keep Listening |Listen to conversation]]
+[[Ignore Them |Ignore Conversation]]
 
 :: Listen to conversation 
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 “Well, I happened to send some nude photos on it”
+<<set $stress  = $stress + 1>>
 “Are you serious?”
 Utter disbeleif in the unprofetionalism and unseriousness of your colleagues.
 yet you kept lsitening so how serious does that really make you.
-[[Keep Listening | Continues Conversation 1]]
+[[Keep Listening |Continues Conversation 1]]
 
 :: Continues Conversation 1
 “was it yours?”
@@ -44,148 +105,391 @@ You're starting regret joining in on this converston by the Second
 [[You've already made it this far | Continue Conversation 2]]
 
 :: Continue Conversation 2
+<b>$name : $time hours remaining | Stress Level: $stress </b><<set $time = $time - 1 * $stress>>
+
 “don’t worry it was just some random person’s that I found online”
 Unbeleivable
-[[Here we go | Continues Conversation 3]]
+[[Here we go |Continues Conversation 3]]
 
 ::Continues Conversation 3
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 “And why would you do that exactly?” Maybe you shouldn't have asked
 “Well, I thought it was funny and besides you’ve been monitoring that thing fore ages now and nothing ever happens so what’s the harm?”
 "Of course. Why didnt I think of it first, why not send nudes into space as a way of enticing life forms to say hello?"
 They both start laughing thinking this whole situation is th funniest thing on the planet.
-[[Can they get anymore unserious? | Continues Conversation 4]]
+[[Can they get anymore unserious? |Continues Conversation 4]]
 
 :: Continues Conversation 4
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 “Okay but what if it does reach something one day? Have you even considered the consequences?”
 “Trust me it won’t”
 “Yeah, you’ve been monitoring a blank screen for ages”
 “Maybe you should move on”
 
-You really want to be the bigger person so you decide to [[get back to work | Get back to work]]
+You really want to be the bigger person so you decide to [[get back to work |Get back to work]]
 
 :: Get back to work
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 “Whatever and anyway the nudes thing, yeah inappropriate”
 “Yeah, well I think it was pretty funny”
 “Besides wouldn’t you like the aliens to have a gorgeous interpretation of the human race?”
 “You’re disgusting”
 “Yeah, yeah, yeah nothing I haven’t heard before” 
 
-In that moment the frequency starts [[picking up a signal | Disturbance on the Frequency]]
+In that moment the frequency starts [[picking up a signal |Disturbance on the Frequency]]
 
 :: Ignore Conversation 
-You can hear Dr. Martin and Dr. Alverez slightly by their tables mumbling about good first impressions or something, right now your goal is not to understand what they have to say, but to find life beyond our stars, something more meaningful to the human race more than the "entertainment" thoes two find in messing with the equipment
-Those two have been so unenthusiastic about the posibility of life beyond earth for while now, yet they find almost any chance they have to mess around with the fequencies and software that try to establish communication
-You wonder how can it be that there are astrophysicists that are not as calm an profesional as you. 
-You chalk it up to it just being one of lifes mos profound mysteries. 
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+You can hear Dr. Martin and Dr. Alverez slightly by their tables mumbling about good first impressions or something, Irrelevent nonsense as far as you're concerned
+<<timed 3s>>
+right now your goal is not to understand what they have to say, but to find life beyond our stars, something more meaningful to the human race
+more than the "entertainment" thoes two find in messing with the equipment
+Those two have been so unenthusiastic about the posibility of life beyond earth, yet they find almost any chance they have to mess around with the fequencies and software that try to establish communication
+<</timed>><<timed 8s>>
+You wonder how can it be that there are astrophysicists that are not as calm and profesional as you. 
+You chalk it up to it just being one of lifes most profound mysteries. 
 In that moment 
-[[Beep Beep Beep | Disturbance on the Frequency]]
+[[Beep Beep Beep |Disturbance on the Frequency]]
+<</timed>>
 
 ::Disturbance on the Frequency
-While aimlessly clicking through to try and find the exact location of that frequency you notice that the signal you are receiving is from an entity that doesn’t appear to be from any of the planets or stars you are currently observing. Intrgued you try to hone in on the location more and try to find the precise location of the signal.
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+While desperately clicking through to try and find the exact location of that frequency you notice that the signal you are receiving is from an entity that doesn’t appear to be from any of the planets or stars you are currently observing.
+
+Intrgued you try to hone in on the location more and try to find the precise location of the signal.
 "Hey guys Somethings Happening!"
 "What?"
 "Im picking something up! Come look, quickly!"
-Dr. Martin and Dr. Alverez observe your screen from behind you as you quickly find the source. But just as quickly the source was found the connection was [[lost.| Lost]]
+Dr. Martin and Dr. Alverez observe your screen from behind you as you quickly find the source. But just as quickly the source was found the connection was [[lost.|Lost]]
 
 ::Lost
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+<<set $time = $time - 2>>
 Disbeleif, Joy, Sadness and Confusion are all you can feel right now as your dream of finding non human lifeforms was finally acheived, but was swiftly taken away from you so easily. 
 "What happened?"
 "I don't know ... Its gone"
 "Well that sucks, maybe it wasn'y anything afterall"
 "No I know it was someone coming in range of my search, and Im too close to give up"
 "Okay so what do we do now?"
-[[Give up | Give Up]]
-[[Try Anything to get the connection established | Try Something]]
+[[Give up |Give Up]]
+[[Try Anything to get the connection established |Try Something]]
 
 :: Give Up
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 You've conceted defeat in this matter, you deide that you've had enough of this study driving you insane, Realizing that maybe there isn't anything out there worth finding, drained of the passion you once had you pak up all your things and leave for 
 the day, not saying a word on your way out. Is this it for you?
-[[Yes | Quit]]
-[[No | Try Something]]
+[[Yes |Quit]]
+[[No |Try Something]]
 
 :: Quit
-This is it, its over, You decie to quit your job as youve realized tha you've lost years
-trying to find something that Wasn't real.
-[[Game Over | Endings list]] 
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+This is it, its over, You decie to quit your job as you've realized that you've lost years
+trying to find something that wasn't real.
+[[Game Over |Endings list]] 
 
 :: Try Something
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "Okay first you two try to focus our signal in this location here"
 "I'll go ahead and try and to make some form of communication with them" 
-You three we successfully able to make a [[connection with the aliens in the area | Connection Human]]
+
+[[Run Test |Run Test]]
+<i>Keep running tests until you get a connection</i>
+<<if $numTest >= 3>>
+You three we successfully able to make a [[connection with the aliens in the area |Connection Human]]
+<</if>>
+
+:: Run Test
+number of tests ran is $numTest
+<<set $numTest = $numTest + 1>>
+<<return>>
 
 :: Connection Human
-“Hello, Hello, This is Dr. Attwood, from NASA, is anyone there?”
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+“Hello, Hello, This is Dr. $name, from NASA, is anyone there?”
 “…”
 “Hello, Hello, can anybody here me?”
-“F%#%YGER% ^%#^$#^$”
-[[“!?!??!?!” | Alien Conversation]]
+“F%#%YGER% ^%#^$#^$” <<set $stress = $stress + 2>>
+[[“!?!??!?!” |Disconnected]]
+
+::Disconnected
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+Just as quickly as the connection was found it was gone. 
+
+vanished right before your eyes. In that moment desperation began to set in. Being driven by nothing but determination and and unwillingness to give up you [[re-run the tests |Run Test]] again.
+
+<<if $numTest >= 6>>
+you hear the most jaring sound of our life before[[finally |Alien Conversation]]
+<<set $stress = $stress - 1>>
+<</if>>
 
 :: Alien Conversation
-"Hello, this is Commmander Drako from the Gaxodins Species, who I am speaking to?" You hear from the [[computer.| Response]]
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+A harsh buzzing emanated from the computer screen, the noise filled the room. Your screen glitched momentarily, until the noise slowly died down.
+
+You hear someone clear their throat, and speak with an accent you have never heard before.
+"Greetings. My name is Drako, a member of the Gaxodin species, you may address me Commander Drako. …May I ask who I am speaking to?"
+
+
+Everyone in the room is in complete scilence as you all stare at the computer before you.
+[[Celebrate Victory |Celebrate]]
+[[computer.|Response]]
+
+:: Celebrate
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+You stare at the screen, completely dumbfounded. You are speaking to aliens. Actual aliens. What are you supposed to say? 
+
+"Hello? Are you there?" 
+
+feeling a reduction in your overall stress level you let out a sigh of releaf.
+<<set $stress = $stress - 2>><<set $AlienTension = $AlienTension + 2>>
+You are immeadiatly snapped back to reality when this alien makes his presence known once again by clearing his throat.
+[[Respond to Alien |Response]]
 
 :: Response
-"Wow I didn't know aliens spoke english"
-"be quiet you idiot" 
-“Ummm... hi? I’m Dr. Atwood... Nice to meet you I guess?” you awkwardly say, is there even a protocal for communicating with aliens even, should I be more formal?
-“Dr. Attwood? Before we start our discussion, are these nude photos you sent yours?”
-You hear the two culprets behind you start to laugh
-How do I even Begin to explain that?
-[[Try to explain | Try Explanation]]
+<b>$name : $time hours remaining | Stress Level: $stress </b>
 
-:: Try Explanation
-“I can Explain that actually. These photos are not real.” I cant beleive I just said that, hopefully they buy it 
-“What do you mean they are fake, nude photos?” It definately didn't work
-"I really thought you’d buy that, okay they’re real. Some colleagues of mine thought it would be funny to send actual, unclothed images of the human body for your viewing pleasure." Might as well come clean I guess right?
-"There was no pleasure in viewing those images, at all." you could hear he disgust in his voice 
-"Trust me, I share the same feelings" you say as you glare at the perpetraitors.[["How about we change the topic?" | Alien Questions]]
+You blink, snapped out of your daze by his words.
+"Um…. hi! My name is Dr. $name." You chuckle, a nervous habit. "Nice to meet you, I guess?" 
+ you awkwardly say, is there even a protocal for communicating with aliens even, should I be more formal?
+ 
+ "Dr….$name? Am I saying that right?" 
+
+"Yup! I mean, that's correct Commander!"
+
+"Dr. $name. Are you the one who sent these, er…images of the nude human form?
+
+Images of nudes blip up on the screen, your jaw drops at the sight. 
+ 
+How do I even Begin to explain that?
+
+[[Joke |Nude Joke]]
+[[Truth |Nude Truth]]
+[[Lie |Nude Lie]]
+
+:: Nude Joke
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Nudes?! Absolutely not! Maybe it was someone else, but certainly not me! But man, it would be nice to look like that, am I right?" 
+
+You laugh at the screen, only to be met with silence. Commander Drako is clearly not amused by humanity's antics. You feel awkward.
+<<set $stress = $stress + 2>> [["Lets Change the topic" |Alien Questions]]
+
+:: Nude Truth
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Actually, I…think I can explain. Some colleagues of mine thought it would be funny to send actual, unclothed images of the human body for your viewing pleasure."
+
+"There was no pleasure in viewing those images, at all."
+
+"Then for science…?" 
+
+"I fail to see how these "nudes"  will assist with the advancement of the Gaxodin species."
+<<set $stress = $stress + 1>>[["Lets Change the topic" |Alien Questions]]
+
+:: Nude Lie
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+You try to think of some kind of lie to tell the commander.
+"Those photos…aren't real."
+
+You curse yourself mentally, is this really the best you can come up with?
+
+"Is this… how humans joke? If so, it is not very funny."
+
+You double down. There's no going back now. 
+"I'm completely serious. Those are a figment of your imagination."
+
+"No it's not. We have the logs of these images being uploaded to our database."
+
+Darn, he's good. 
+"Okay. You're right. They are real. But they're your photos."
+
+"...What? Ugh, forget it. It doesn't matter."
+Well, you may not have convinced him, but you certainly confused him. 
+[["Lets Change the topic" |Alien Questions]]
 
 :: Alien Questions
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "Well… Thank you for that information. I’m curious to know the messages you sent us. Why did you send these in the first place?" Oh thats what they want to know, that easy, but what if they are planning to invade and take over. I have to becarefull about what I say to them.
 "You’re welcome…I think, and we here on earth have been trying to find out if there actually exists life forms outside of our own solar system or are we just alone, but clearly we have company… yay?" You nervously say, trying not to say too much. Yes it seems like a harmless question but you can never be too sure of someone, or I guess in this case somethings intentions.
 "Well… It’s clear to us that we have company ourselves as well. And I can tell you that there are many other lifeforms out, just not a lifeform as intelligence as yours." well how intelegent are we really if they’re traveling galaxies and we’restill here.
 "Oh okay so what about you?" You asked, try to more directly ask their true intentions for you
 "We are a species that is many lightyears away from your planet. But…" that is great information, it gives us time to prepare for anything atleast, but what?
 
-[[Option 1 | Lie Human]]
-[[Option 2 | Truth Human]]
+your are never really sure if youll be told the truth or a lie, all you can do is hope for the best. 
+<<set $stress = $stress + 1>>
+[[Option 1 |Lie Human]]
+[[Option 2 |Truth Human]]
 
 ::Lie Human
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "We are exploring the unknown to meet others just like your species." Oh thats fine really, seeing as their just exploring, again proving to be more advanced than we are.
-"Oh just like us, although I suppose we aren't as advanced as you, since you're out exploring, while I'm just sitting here.. Haha" Well thats a releif you hope [[ you want to learn more.| Alien Questions 2]]
+"Oh just like us, although I suppose we aren't as advanced as you, since you're out exploring, while I'm just sitting here.. Haha" Well thats a releif you hope [[ you want to learn more.|Alien Questions 2]]
 
 ::Truth Human
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "Our species is dying, a disease took over our planet and destroyed 99.99% of our species, we need a new planet to call home so we can repopulate." Thats horrible news, but what can You or even your planet do? but you cant be too sympathetic as ou are still unsure of these aliens
-"Oh no that's awful, what conditions do you need for your people to survive?" You need to know if this dream of yours could potentially put your planet [[at risk.| Alien Questions 2]] 
+"Oh no that's awful, what conditions do you need for your people to survive?" You need to know if this dream of yours could potentially put your planet [[at risk.|Alien Questions 2]] 
 
 :: Alien Questions 2
-"Do you have water, meats, food that can be consumed with no poisons, and extra land?" You looked at your colleagues nervous to answer and they shrug as they were even more nevous than you were
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Do you have water and food that can be consumed with no poisons, and extra land?" You looked at your colleagues nervous to answer and they shrug as they were even more nevous than you were
 "Well we technically do have all that stuff but not that much as we have a population of 8 billion people." You hope that telling them the atual number would throw them off slightly  as that is a really large population 
 "8 billion of your species. Great to hear, my question is if you may want to compromise."
+Whats going on here?
+<<set $stress = $stress + 2>>
+[[I dint Like where this is going |Deeper Conversation]]
+
+::Deeper Conversation
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "Umm I’m not really liable to make those sorts of decisions on behalf of my planet, you see I’m just a scientist." Oh this conversation is now beyond me, This is more like a conversation for the United Nations. Given they probably won't take too kindly of the tone of this conversation either
 "But you're the one speaking to the head of the Gaxodins." How do I explain that I'm just an overly ambitious astrophysicist.
-"Oh I understand that but I'm sure I can have the UN meet with you in a few days if you’d like?" They might not have liked that very much.
+
+[[Suggest UN meeting |UN Meeting]]
+[[Kick Rocks |Kick Rocks]]
+[[Negotiate |Negotiate]]
+
+::UN Meeting
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Oh I understand that but I'm sure I can have the United Nations meet with you in a few days if you’d like?" They might not have liked that very much.
+
 "My species is dying, I do not have a few days to talk to these specimens" The anger was evident. But it was still no place for you to start diplomatic negotiations with alien lifeforms
-"Okay how About I have a Commanding officer speak to for now while we try to get some UN representatives together?" you ask, trying to compromise their alleged compromise.
-"I’m willing to wait, but just for a moment."
+<<set $AlienTension = $AlienTension + 3>>
+
+[[Press for UN Meeting |Incist meeting]]
+[[Negotiate With Aliens |Negotiate]]
+
+::Negotiate
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+<<set $stress = stress + 1>> "Uhm okay what is this compromise you speak of ?"
+"Well we'd like for you to concider sharing your planet with us"
+Thats what I thought 
+
+Scilence fills the room as everyoune awaits your response.
+
+<<if $stress >= 4>>
+Desperation to meet this deadline is all you cn think about, as you glace at your time, you now only have $time hours left.
+[[Hear them out some more |Hear Aliens Out]]
+<</if>><<if stress < 4>>
+This is crazy, negotiating with aliens, I cant risk potentially puting the human race in danger like this.
+[[This is crazy |Stop negotiation]]
+
+::Kick Rocks
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Look I dont know who you think you are but I think you've got the wrong Idea here. I'm not in the busness of making deals with aliens so how about you kick rocks".
+
+Why would you say that. You've really done it now.<<set $stress = $stress = $stress + 4>><<set $AlienTension = $AlienTension + 4>>
+
+[[Uh oh |consequences]]
+
+::Hear Aliens Out
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Okay I see that this is something you need for your people to survive, but I'm afraid I can't grant you that request".
+"Then I think I've heard enough from you."
+[["Wait I-" |consequences]]
+
+::Stop negotiation
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+This is crazy, You are in no position to be making these choices on your own[[ Suggest UN Meeting |UN Meeting]]
+
+::Incist meeting
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Okay how About I have a Commanding officer speak to you for now while we try to get some UN representatives together?" you ask, trying to compromise their alleged compromise.
+"I’m willing to wait, but just for a moment." <<set $stress = $stress - 1>>
 You Immediately ran out with your colleagues to make as manny calls as possible, leaving aliens on hold may have not been a great decision but who cares.
 "Umm so unfortunately the UN representatives are unable to meet right now, are you sure you can't wait A few day’s?" This was the best solution you could offer at this point as you were quickly hit with the reality that the UN does NOT infact work for you as you were shut down by almost every member. 
 I hope they don't take it too personally.
-[[Option 1|Ending War Human]]
+
+<i>You can do nothing to control another persons reactions, all you can do is hope you are able to controll your own</i>
+
+[[Option 1|Human War Ending]]
 [[Option 2|Ending Compromise Human]]
 [[Option 3|Offer Human]]
 
-:: Ending War Human
-"If you do not get someone here now, I will invade your planet. Whether you like it or not." What have I gotten us into!? What can you do?
-"I'm sorry, but there's nothing I can d-"
+::consequences
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"Clearly I'm not speaking to the right person or your mental faculties must be failing you"<<set $stress = $stress + 1>>
+He continues to berate you, while you are at a loss for words unable to stop the unslaught of insults being thrown your way
+
+"I can try to get someone here but Im afraid they wont make it in [[time |Human War Ending]]"
+
+::Human War Ending
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+"If you do not get someone here now, I will invade your planet. Whether you like it or not." You hear from the computer
+"I'm sorry, but there's nothing I can d-" You desperately try to stop it
+<<if $AlienTension >= 6>>
+You fail in trying to remedy the situation due to the aliens being so tense.
 "Then so be it, consider us your enemy. Bellatrix end the call." The connection was cut and silence filled the room
 "Call the Army, call the UN, Call the marines, heck call your parents even." Panicked you realize that the dream you had be [[hoping for might have doomed your planet.|Ending War Human Continued]]
+<<else>>
+"Then so be it, consider us your enemy." Panick sets in.
+"WAIT! I can get some one here in an hour please"
+"Fine but thats all you get"
+<<set $time = 1>>
+[[Get Anyone here |Get Anyone]]
+<</if>>
 
 ::Ending War Human Continued
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 Within hours, giant cruisers appeared in our skies and began to destroy large cities on Earth. We were far weaker in comparison with their advanced weapons and intelectual levels that we could not keep up with, our own weapons could not stand against the cruisers and their soldiers. Only countless losses from the war and our species was quickly erradicated from the face of our home.
 Enter the empty void of erradication. 
 [[End|Endings list]]
 
+::Get Anyone
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
+You extend all your resources in order to get some form of help
+[[Contact the UN |Contact UN]]
+[[Send word to your Higher ups |Up the chain of command]]
+[[Give Up |defeat human]]
+
+::defeat human
+<<set $time  = 0>><b>$name : $time hours remaining | Stress Level: $stress </b>
+Its over, this is the [[end |Ending War Human Continued]]
+
+::Keep trying
+<<set $time = 0>> <b>$name : $time hours remaining | Stress Level: $stress </b>
+You couldn't get anyone from the UN in an hour, but you already knew that, so this is the [[end for us all |Ending War Human Continued]]
+
+::Contact UN
+<<set $time = $time - 0.5>><b>$name : $time hours remaining | Stress Level: $stress </b>
+You are trying every means possible to contact them, as you are watching your time run out 
+
+[[continue your efforts |Keep trying]]
+
+::Up the chain of command
+<<set $time = $time - 0.25>><b>$name : $time hours remaining | Stress Level: $stress </b>
+You luckily get you Higher ups to join you in trying to negotiate with the aliens<<set $time = $time - 0.25> . This leads to you being able to conclude with the aliens just in [[time |Ending Compromise Human]]
+
 :: Ending Compromise Human
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 "I'm more than willing to send a Gaxodin to represent us. If it means we meet a compromise."
 "Perfect! I'll let you know when to meet." You said excitedly. See no need for violence.
 "Please send coordinates of the exact location so I can send our representative immediately."
@@ -195,6 +499,8 @@ Apparently they sent one of your best soldiers down to speak with us and the mee
 Though you were not able to give them a new home, you hoped they would find one soon. And you who knows, maybe they've already found it. [[You were finally able to acheive your dreams.|Endings list]]
 
 :: Offer Human
+<b>$name : $time hours remaining | Stress Level: $stress </b>
+
 Silence and the sound of a really deep breath was all that existed on the line now. 
 "I'm willing to make an offer, if you like." You look at you your colleagues, something told you you realld yidn't have much of a choice.
 "Okay, I’ll hear you out."You say afraid of what they might do and the hell the could possibly unleash on the planet.
@@ -203,4 +509,5 @@ Silence and the sound of a really deep breath was all that existed on the line n
 “No, we just want the food and water, enough to supply 5000 for multiple years. Or, you help us find a cure, give us supplies, and we’ll give you information on how to create ships like ours." You went silent for a while, as you are so not allowed to make this decision but hat choice do you have.
 "I can get this through with the UN leaders, it just we may need someone to represent the Gaxodins." You heard a chorus of sighs [[I guess we've reached a compromise|Ending Compromise Human]]
 
-
+::Endings list
+You have reached the end of the various endings that exist in the game. Press [[Introduction|Introduction]] to go back to the beginning.
