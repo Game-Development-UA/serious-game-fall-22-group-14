@@ -1,7 +1,16 @@
 :: Introduction
-Please choose between two perspectives: [[Alien Perspective|Alien Perspective]] [[Human Perspective|Human Perspective]]
+There are always two sides to a story. There are no heros, no villains, just people with different agendas.
+
+<<timed 3s>>
+[[Alien Perspective |Alien Perspective]]
+[[ Human Perspective |Human Perspective]]
+<</timed>>
 
 :: Alien Perspective
+Let your name be known to the world
+<<textbox "$name" " " [[Alien Introduction]]>>
+
+:: Alien Introduction
 The year is 2027 in Earth years. 
 <<timed 3s>>
 <span class='fade-in'>Your species, Gaxodin, has been traveling throughout the galaxy to find a new planet to call home, after a deadly [[disease|disease explain]] took out 99.99% of your species. This disease was fatal for many Gaxodin, regardless of health status.</span>
@@ -54,6 +63,7 @@ You sit in your chair in the command port, watching the stars pass by.
 [[“What’s happening?”|Concern]]
 [[“Let me guess, Gan released the animal we captured again.”|Release that weird animal]]
 <</timed>>
+
 ::Sarcasm
 Bellatrix meets you with silence, as if she’s giving you the most menacing look through the intercom.
 <timed 5s>>
@@ -113,54 +123,185 @@ Your thoughts continue to ponder as you enter the room. Bellatrix greets you as 
 <<timed 22s>>
 Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
 <</timed>>
-
+<<timed 26s>>
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
 [[“My goodness, that’s disgusting.”|Ew]]
 [[“What is this?”|What is it?]]
-
+<</timed>>
 ::Rude
 “I have no idea, sir.”
+<<timed 2s>>
 “Well this species has a weird way of saying hello, I hope this isn’t common in their [[species.”|Off the screen]]
+<</timed>>
 
 ::Ew
 Bellatrix had a face of disgust, looking at you, knowing you felt the same about the images. 
 “Can we take these down?” Bellatrix asked.
+<<timed 2s>>
 “PLEASE!!!” Everyone [[exclaimed.|Off the screen]]
+<</timed>>
 
 ::What is it?
 “These are nudes images of a different species.” Bellatrix stated.
+<<timed 2s>>
 “Yeah, get those images off screen, [[please.”|Off the screen]] 
+<</timed>>
 
 ::Off the screen
 Bellatrix exits out of the message and you hear the sigh of relief from the researchers, as well as murmurs about how gross it was to even view those images.
+<<timed 5s>>
 "Can you load in the next message?" You asked Bellatrix.
-"Sure, let me pull it up." Bellatrix pull up the next message, in an unknown language. She opens the Translator and asks the system to read the message. After a few moments, the translator was unable to translate the message, but brings up another notification. 
-“Planet location identified in messages. Proceed to pinpoint the planet?” You and Belltrix look at each other. She nods.
-"Proceed." You state.
-The translator closed out and the planet locator opened. It took only a few minutes to pinpoint the system and the orbit of the planet.
-“Planet X459, begin route to planet?” Everyone in the room sees the image of the planet. You look over at Bellatrix and you see the shine in her eye. You know if the head research loves the planet, it's the one.
-"So, should we begin our route, Commander?"
-[["Let me think about it."|Walk back]]
+<</timed>>
+<<timed 7s>>
+"Sure, let me pull it up." Bellatrix pull up the next message, in an unknown language. She opens the Translator and asks the system to read the message.
+<</timed>>
+<<timed 12s>>
+"This is going to take a few moments, if you have other business to do, feel free to leave." Bellatrix stated.
+[["I don't mind waiting"|Bust]]
+[["Of course, let me know if you get it translated"|Now what]]
+<</timed>>
+
+::Now what
+What would you like to do in the mean time?
+[[Explore the laboratory|Laboratory stuff]]
+[[Go to the Mess Hall|Mess Hall]]
+[[Go see Anaet|Anaet]]
+
+::Bust
+After standing there, wasting your life away, the translator was unable to read the language.
+<<timed 4s>>
+"Shit." Bellatrix cussed.
+<</timed>>
+<<timed 5s>>
+[[Isn't there anything else you can do|Planet Locator]]
+[[Wow, great job|Argument]]
+
+::Planet locator
+"Yeah, I can use the planet locator to see where the messages came from." Bellatrix said.
+<<timed 3s>>
+"Perfect. Get it running." You stated.
+Bellatrix pulled up the Planet Locator. She grabbed the message with unknown language and insert it into the locator, hoping to find the sender.
+<</timed>>
+<<timed 10s>>
+The planet was found after a few moments, bringing up the exact corrdinates.
+The image of the planet showed up on the screen, the blue and green was beautiful.
+"So, should we get the corrdinates loaded and be on our way?"
+[["Let me think about it."|Walk Back]]
+<</timed>>
+::Argument
 
 ::Walk back
-You thank Bellatrix and leave the room. You’re not sure if this is the right decision. What if they ambush your species? What if they attack you with no warning? What if they don't help and let you die? 
-But there's also the question of what if goes right? What if they do help? What if they invite us to live on the planet? What if they help us find a cure?
-You walk into the command room, saluted by the soldiers and sit in your chair. You open the system and the message is still there.
-“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. But the lives of your species may be at risk due to the species that sent the messages. You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+You thank Bellatrix and leave the room. You’re not sure if this is the right decision.
+<<timed 3s>> 
+<span class='fade-in'>What if they ambush your species?</span>
+<</timed>>
+<<timed 5s>> 
+<span class='fade-in'>What if they attack you with no warning?</span> 
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What if they don't help and let you die?</span> 
+<</timed>>
+<<timed 9s>>
+But there's also the question of what if goes right? 
+<</timed>>
+<<timed 11s>>
+What if they do help? What if they invite us to live on the planet?
+<</timed>>
+<<timed 13s>>
+What if they help us find a cure?
+<</timed>>
+<<timed 15s>>
+You walk into the command room, saluted by the soldiers and sit in your chair. You open the system and load the planet locator.
+<</timed>>
+“Planet X459, begin route to planet?” You sat in the chair and pondered to yourself. If you went to this planet, you could discover a new planet that may be habitable. 
+But the lives of your species may be at risk due to the species that sent the messages.
+You’re not sure how advanced they are, but you can assume that they have technology that they can communicate with, so they are to some degree. You have to make a decision, your species is at risk.
+<<timed 25s>>
 [[“Yes, Proceed.”|Proceed with risk]]
 [[“No, we’ll continue our search.”|Ending: No risk taken]]
 [[Get a second opinion|Second opinion]] 
+<</timed>>
 
 ::System Messenger
-“Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent.  What could these messages have that may help or end us? Who is it from? What do these messages want from us? You zone back in and look at the screen of the series of messages sent to you. 
-“Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen. You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
+“Yes, give me a moment.” You sit in your chair and ponder about the messages that are sent. 
+<<timed 3s>>
+<span class='fade-in'>What could these messages have that may help or end us?</span>
+<</timed>>
+<<timed 5s>> 
+<span class='fade-in'>Who is it from?</span>
+<</timed>>
+<<timed 7s>>
+<span class='fade-in'>What do these messages want from us?</span>
+<</timed>>
+<<timed 9s>> 
+You zone back in and look at the screen of the series of messages sent to you. 
+<</timed>>
+<<timed 11s>>
+“Thank you, Bellatrix. You’re dismissed.” You hear the intercom shut off and return your attention to your screen.
+There are multiple messages on the screen. Which one do you want to look at first?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::First Message
+You look at the series of messages and touch the first one on the screen. It was two images of a species in the nude. You were disgusted by the images.
 [[“This is disgusting.”|Close Message]]
 [[Send message to everyone in the command room|Sending message]]
 [[“What is this?”|What?]] 
 
+::Second Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::Third Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Fourth Message|Fourth Message]]
+[[Fifth Message|Fifth Message]]
+
+::Fourth Message
+It's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fifth Message|Fifth Message]]
+
+::Fifth MessageIt's random text that you're unable to read. What other messages do you want to see?
+[[First Message|First Message]]
+[[Second Message|Second Message]]
+[[Third Message|Third Message]]
+[[Fourth Message|Fourth Message]]
+
 ::Close Message
-You close the messages and begin to open the other messages that were sent. When you opened them, you saw a language that was not familiar at all. You pull up another holographic screen, looking through the system for a translator. You find the translator and enter the messages into the translator. The translator took a moment to find the translation, but it was not in the system.You were at a loss until the translator on the screen brought something up.
+You close the message and begin to open the other messages that were sent. 
+<<timed 2s>>
+When you opened them, you saw a language that was not familiar at all. 
+<</timed>>
+<<timed 4s>>
+You pull up another holographic screen, looking through the system for a translator. 
+<</timed>>
+<<timed 6s>>
+You find the translator and enter the messages into the translator. The translator took a moment to find the translation, but it was not in the system.
+<</timed>>
+<<timed 8s>>
+What should you do?
+[[Give up|Give up]]
+[[Use the Planet Locator|Using the Planet Locator]]
+[[Ask Bellatrix for help|What]]
+
+::Give up
+
+::Help from Bella
+
+::Using the Planet Locator
+You open the planet locator on the 
 “Planet location identified in messages. Proceed to pinpoint the planet?” The system asked.
 This brought you to sit up in your chair.
 “Yes, proceed.”
@@ -171,66 +312,130 @@ The translator closed out and the planet locator opened. It took only a few minu
 [[Get a second opinion|Second opinion]] 
 
 ::Sending message
-Everyone looks at you confused, before they open the messages. As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
+Everyone looks at you confused, before they open the messages.
+As soon as they open the message, you hear various groans of disgust and yelling about how gross it was, as you were surrounded by nude images.
+<<timed 5s>>
 “Commander, the hell?! Why did you send that?!” One crew member asked disgustedly.
+<</timed>>
+<<timed 8s>>
 “I had to see it, so do you. You can delete it, you know.” They all looked at you weird, then proceeded to delete the [[messages.|Close Message]]
+<</timed>>
 
 ::What?
 You call Bellatrix over the intercom. She picks up immediately.
+<<timed 2s>>
 “Yes, Commander Drako?”
+<</timed>>
+<<timed 3s>>
 “What is the first message?” Bellatrix was silent until you heard a quiet “ew”.
 “This species must have shot out nude images into space for some weird reason”
+<</timed>>
+<<timed 6s>>
 “Do we know the name of this species”
+<</timed>>
+<<timed 8s>>
 “No sir we do not but we do know a general area of where these pics were sent from.”
+<</timed>>
+<<timed 10s>>
 [[“Let me guess another galaxy that will take another 50 years to get to”|Not too far]]
 [[“Tell me where it was sent from”|Not too far]]
+<</timed>>
 
 ::Not too far
 “It was sent from two systems over.”
-“We can be there in the next day if we have no more fuck up’s on the ship, like last time." Bellatrix stated. You remember last time the ship did a jump. Two out of six reactors were down for months after the space jump. Luckily, they're back up, but the worry that more reactors would go down after the jump would worry you.
-The system opened up the planet locator and you see the planet that the messages were sent from: Planet X459.
+<<timed 2s>>
+“We can be there in the next day if we have no more fuck up’s on the ship, like last time." Bellatrix stated.
+<</timed>>
+<<timed 6s>>
+You remember last time the ship did a jump. Two out of six reactors were down for months after the space jump. Luckily, they're back up, but the worry that more reactors would go down after the jump would worry you.
+<</timed>>
+<<timed 10s>>
+Bellatrix sent you a message and you open it. The system opened up the planet locator and you see the planet that the messages were sent from: Planet X459.
+<</timed>>
+<<timed 15ss>>
 “Planet X459, begin route to planet?” 
+<</timed>>
+<<timed 17s>>
 [[“Wow i was not expecting that lets get to it”|Proceed with risk]]
 [[“This species better be helpful, and hopefully not nude.”|Nude species]]
-
+<</timed>>
 ::Nude species
-[[“I agree these nude species are driving me crazy.”|Proced with risk]]
+[[“I agree these nude species are driving me crazy.”|Proceed with risk]]
 
 ::Proceed with risk
-“Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems. 
+“Beginning System Jump to the orbit of Planet X459.” You alert the crew to be prepared for any issues and to prepare for a jump to the planet. Your crew members begin to load the systems.
+<<timed 3s>>
 “Commander.” You look to see your head weapons coordinator.
 “Should we start our weapons system as well? We don’t know who they are and what motives they have.”
+<</timed>>
+<<timed 7s>>
 [[“Go ahead, we can’t trust this species.”|Ready to go]]
 [[“No, if we go in as a threat, we’ll be treated as such. It’s too big of a risk.”|To see the beyond]]
+<</timed>>
 
 ::Ready to go
 The head weapons coordinator loads the weapons system.
 “Give me the green light when everything is set.”
+<<timed 4s>>
 You pull up the system's screen to see if every light is green. Every light was green and set.
 “Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through. 
-"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
-You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.
+<</timed>>
+<<timed 10s>>
+"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. 
+<</timed>>
+<<timed 14s>>
+The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
+<</timed>>
+<<timed 20s>>
+<span class='fade-in'>You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.</span
+<</timed>>
+<<timed 24s>>
 "Commander, are you seeing this?" Bellatrix asked over intercom.
+<</timed>>
+<<timed 27s>>
 "Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]\]]]]]]]]]]]]]]]]
-
-
+<</timed>>
 
 ::To see the beyond
 “Give me the green light when everything is set.”
-You pull up the system's screen to see if every light is green. Every light was green and set, except for the weapon’s system.
-“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through.
-"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
-You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.
+<<timed 2s>>
+You pull up the system's screen to see if every light is green. Every light was green and set.
+“Begin jumping sequence!” You exclaimed. The system began to charge and soon a portal opened for the ship to travel through. 
+<</timed>>
+<<timed 8s>>
+"Everyone hang on! This may be bumpy!" You held onto the chair arms as the ship began to move through the portal. 
+<</timed>>
+<<timed 12s>>
+The lights began to flicker and the turbulence from the ship was extreme. You heard the shouting of crew members and the clanking of the metal. You fear that you won't make to the other side. You squeeze your eyes shut, soon after the turbulence stops. You can see the light shinig through your eyelids, so you open them.
+<</timed>>
+<<timed 18s>>
+<span class='fade-in'>You a giant star shining onto the glowing blue and green planet. It was a sight to see, you were amazed by it's beauty.</span
+<</timed>>
+<<timed 22Ss>>
 "Commander, are you seeing this?" Bellatrix asked over intercom.
-"Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]
+<</timed>>
+<<timed 27s>>
+"Yeah... it's beautiful." You look at the screen. All systems were still green and the planet looked the same on the screen. Only difference was the real planet shined [[through.|Communication]]\]]]]]]]]]]]]]]]]
+<</timed>>
 
 
 ::Ending: No risk taken
-The system hears the request and shuts down. The crew looks at you as if you made the worst mistake in history. You look at them. It was a moment until you barked at them to get back to work. You slouch in your chair and sigh. You couldn’t bear to risk it all and let your species die at the hands of an unknown species. You were sure there has to be another planet that can give your species everything needed. Right? You search elsewhere in the galaxy, only for your species to die from hunger and starvation. 
+The system hears the request and shuts down. The crew looks at you as if you made the worst mistake in history. You look at them. It was a moment until you barked at them to get back to work. You slouch in your chair and sigh. You couldn’t bear to risk it all and let your species die at the hands of an unknown species. 
+<</timed>>
+<<timed 7s>>
+You were sure there has to be another planet that can give your species everything needed. Right? You search elsewhere in the galaxy, only for your species to die from hunger and starvation. 
+<</timed>>
+<<timed 12s>>
 You were the last one alive with only a barely functioning system. All of the remaining bodies were enclosed in the bay, where they all laid, and died horribly from your mistake. You should have taken that risk and you knew the moment they all began to die. You blinked at the screen and said your final words,
-“System… Self destruct…Nothing can be left behind.” 
-The system began its sequence, overloading the reactors and exploding everything.
-You heard the exploding happening in the various rooms behind you. You closed your eyes and drawed your final breath, as the plasma flames took over the room and destroyed the ship [[completely.|Endings list]] 
+<</timed>>
+<<timed 17s>>
+<span class='fade-in'>“System… Self destruct…Nothing can be left behind.”</span> 
+<</timed>>
+<<timed 20s>>
+<span class='fade-in'>The system began its sequence, overloading the reactors and exploding everything.</span>
+<</timed>>
+<<timed 21s>>
+<span class='fade-in'>You heard the exploding happening in the various rooms behind you. You closed your eyes and drawed your final breath, as the plasma flames took over the room and destroyed the ship [[completely.|Endings list]]</span> 
 
 ::Second opinion
 Who will you ask?
@@ -261,36 +466,64 @@ You walk back to your seat and question: Do you proceed to Planet X459?
 
 ::Communication
 "Bellatrix, can you possibly find a way to talk to them?"
+<<timed 2s>>
 "Like send a message?"
+<</timed>>
+<<timed 3s>>
 "No... talk to them in real time." Bellatrix was silent for a moment before she responded.
+<</timed>>
+<<timed 9s>>
 "I can try, we just need to connect the frequency to the one that was sent out."
-"Do everything you can, I'll meet you in the lab so we can meet this... species." 
+<</timed>>
+<<timed 12s>>
+"Do everything you can, I'll meet you in the lab so we can meet this... species."
+<</timed>>
+<<timed 15s>> 
 "Understood Commander." You leave the command room and walk over to the laboratory quickly, hoping to arrive in time for the frequencies to match.
 You walk into the laboratory when Bellatrix greets you.
+<</timed>>
+<<timed 20s>>
 "We have the channel where the messages come from, shall we tune in?" You nod at Bellatrix as she begins to tune in. You hear the static and the sounds of the unstable frequency until you hear a [[voice.|First Interaction]]
+<</timed>>
 
 ::First Interaction
 “Hello, Hello, This is Dr. Attwood, from NASA, is anyone there?” The room was silent. No one recognized the language.
+<<timed 3s>>
 “Hello, Hello, can anybody hear me?” You look over at Bellatrix.
+<</timed>>
+<<timed 5s>>
 "Turn on the translator, now!" Bellatrix rushes to the system to turn on the translator. You hear the system tune into the conservation, trying to understand the language being communicated.
+<</timed>>
+<<timed 8s>>
 "COMMANDER!" The system continues to identify the language until you see the results. The screen read:
 Species: Human
 Languages identified: 1
 Language: English
 Proceed to translate to Gaxodin when spoken to and translate Gaxodin to English?
+<</timed>>
+<<timed 13s>>
 
 [["Wow, how the translator do it so quickly?"|Connection]]
 [["How did the translator know?"|Connection]]
+<</timed>>
 
 ::Connection
-"I was able to connect to a different frequncy that stores information about this planet and languages." You were impressed by Bellatrix's work, considering how quick you rushed to the laboratory.
+"I was able to connect to a different frequncy that stores information about this planet and languages. It's actually right by us." You were impressed by Bellatrix's work, considering how quick you rushed to the laboratory.
+<</timed>>
+<<timed 5s>>
 "Let me speak to them", you tell Bellatrix. She steps away from the screen and you begin to speak.
+<</timed>>
+<<timed 8s>>
 "Hello, this is Commmander Drako from the Gaxodins Species, who I am speaking to?" You asked over the [[intercom.|Dr. Attwood]]
+<</timed>>
 
 ::Dr. Attwood
-
 “Ummm... hi? I’m Dr. Atwood... Nice to meet you I guess?” The specimen was awkward, it made you unsure of even communicating with Attwood, but you needed answers.
+<</timed>>
+<<timed 5s>>
 “Dr. Attwood? Before we start our discussion, are these nude photos you sent yours?” Bellatrix punched your arm and gave you a dirty look. Both of you bickered about how inappropriate the question and that it may ruin your chances of success.
+<</timed>>
+<<timed 10s>>
 Dr. Attwood then began to [[explain.|Explaination]]
 
 ::Explaination
