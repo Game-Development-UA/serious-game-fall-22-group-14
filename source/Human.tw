@@ -1,4 +1,8 @@
 :: Human Perspective
+Let your name be known to the world
+<<textbox "$name" " " [[Human Introduction]]>>
+
+:: Human Introduction
 The year is 2027, You are Dr. Charlie Attwood, an ambitious astrophysicist, living through your normal Tuesday routine, which includes observing and analyzing celestial bodies. You are currently searching for life on other planets in the universe, monotonously clicking and reading the same files and reports that tell you nothing. Your goal really is to find some form of celestial life anywhere. This discovery could change the way humans understand the universes and their contents. But here you are with no more information than you had yesturday. [[Scanning Frequencies | Scanning Frequencies]]
 
 :: Scanning Frequencies
