@@ -97,29 +97,30 @@ You stretch your arms and legs before you stand up from your chair to leave the 
 <span class='fade-in'>Who is it from?</span> 
 <</timed>>
 <<timed 11s>>
-<span class='fade-in'>What do these messages want from us?</span> 
+<span class='fade-in'>What do these messages want from [[us?|Laboratory cont.]]</span> 
 <</timed>>
-<<timed 13s>>
+
+::Laboratory cont.
 Your thoughts continue to ponder as you enter the room. Bellatrix greets you as you walk over to the computer she’s in front of. You see the messages in order, with odd text that makes it hard to read.
-<</timed>>
-<<timed 17s>>
+<<timed 5s>>
 “Have any of the messages been open?” you asked.
 <</timed>>
-<<timed 19s>>
+<<timed 7s>>
 “None of them, Commander.”
 <</timed>>
-<<timed 20s>>
+<<timed 8s>>
 “Go ahead and open the first message.”
 <</timed>>
-<<timed 22s>>
+<<timed 10s>>
 Bellatrix opens the first message that was sent. It was two images of a species in the nude. You hear the other researchers groan in disgust and some yelling to get the images off the screen.
 <</timed>>
-<<timed 26s>>
+<<timed 14s>>
 [[“Ew. Get it off the screen.”|Off the screen]]
 [[“What happened to saying hello first?”|Rude]]
 [[“My goodness, that’s disgusting.”|Ew]]
 [[“What is this?”|What is it?]]
 <</timed>>
+
 ::Rude
 “I have no idea, sir.”
 <<timed 2s>>
@@ -150,14 +151,7 @@ Bellatrix exits out of the message and you hear the sigh of relief from the rese
 <<timed 12s>>
 "This is going to take a few moments, if you have other business to do, feel free to leave." Bellatrix stated.
 [["I don't mind waiting"|Bust]]
-[["Of course, let me know if you get it translated"|Now what]]
 <</timed>>
-
-::Now what
-What would you like to do in the mean time?
-[[Explore the laboratory|Laboratory stuff]]
-[[Go to the Mess Hall|Mess Hall]]
-[[Go see Anaet|Anaet]]
 
 ::Bust
 After standing there, wasting your life away, the translator was unable to read the language.
@@ -288,8 +282,7 @@ What should you do?
 [[Ask Bellatrix for help|What]]
 
 ::Give up
-
-::Help from Bella
+You decide that it isn't worth it to fuss over, so you gave up. [[Congrats, everyone is dead now.|Ending list]]
 
 ::Using the Planet Locator
 You open the planet locator on the 
@@ -519,47 +512,89 @@ Dr. Attwood then began to [[explain.|Explaination]]
 
 ::Explaination
 “I can Explain that actually. These photos are not real.” You were confused by the statement, as you heard murmurs about knowing it was real, they saw it with their own eyes.
+<</timed>>
+<<timed 5s>>
 “What do you mean they are fake, nude photos?” You asked with a serious tone, hoping the specimen would pick up on what you meant.
+<</timed>>
+<<timed 8s>>
 "I really thought you’d buy that, okay they’re real. Some colleagues of mine thought it would be funny to send actual, unclothed images of the human body for your viewing pleasure." 
+<</timed>>
+<<timed 13s>>
 You look around the room to see the horrified faces of all of the researchers. They all look back at you and shake their head.
 "Oh my goodness, they're weirder than we thought." Bellatrix whispered.
 "I know, it's a bit sad." You whispered back.
+<</timed>>
+<<timed 20s>>
 "There was no pleasure in viewing those images, at all." You respond back to Attwood over the intercom. 
 "Trust me, I share the same feelings", Attwood responded. You were thankful that you were not the only one who was disgusted by this [[act.|Answers]] 
+<</timed>>
 
 ::Answers
 "Well… Thank you for that information. I’m curious to know the messages you sent us. Why did you send these in the first place?" You need to know this species motives before you could trust them.
+<</timed>>
+<<timed 5s>>
 "You’re welcome…I think, and we here on earth have been trying to find out if there actually exists life forms outside of our own solar system or are we just alone, but clearly we have company… yay?" You could sense that the specimen was nervous and did not want to tell you something. But playing it nice would help in the long run.
+<</timed>>
+<<timed 10s>>
 "Well… It’s clear to us that we have company ourselves as well. And I can tell you that there are many other lifeforms out, just not a lifeform as intelligence as yours." It was true, they were the only species to ever reach out to you, even if it wasn't on purpose. They seem to know what they're doing if they sent out those messages.
+<</timed>>
+<<timed 16s>>
 "Oh okay so what about you?" You paused at the question, you weren't sure if they were the ones to trust.
 "We are a species that is many lightyears away from your planet. But…"
+<</timed>>
+<<timed 22s>>
 
 [[Lie to them|Lie]]
 [[Tell them the truth|Truth]]
+<</timed>>
 
 ::Lie
 "We are exploring the unknown to meet others just like your species." You were hoping that Attwood would fall for your lie, as you did your best to sound covincing.
+<</timed>>
+<<timed 5s>>
 "Oh just like us, although I suppose we aren't as advanced as you, since you're out exploring, while I'm just sitting here.. Haha" Success. Now that you have Attwood under your trap, you could maybe [[get something out of it.|Question]]
+<</timed>>
 
 ::Truth
 "Our species is dying, a disease took over our planet and destroyed 99.99% of our species, we need a new planet to call home so we can repopulate." You were sad, but the truth had to be told. If you were honest, maybe Attwood would be able to sympathize and the Gaxodins could get something.
+<</timed>>
+<<timed 5s>>
 "Oh no that's awful, what conditions do you need for your people to survive?" The fact he asked, made [[you feel a bit better.|Question]] 
+<</timed>>
 
 ::Question
 "Do you have water, meats, food that can be consumed with no poisons, and extra land?" You looked at Bellatrix, who looked uneased, but nodded because it was something your people really needed.
+<</timed>>
+<<timed 5s>>
 "Well we technically do have all that stuff but not that much as we have a population of 8 billion people." Your eyes widen. 8 billion people and yet they thrive? It fascinated you as you stood there in silence. But the conversation was still going and you have a goal.
-"8 billion of your species. Great to hear, my question is if you may want to compromise."
+<</timed>>
+<<timed 12s>>
+"8 billion of your species. Great to hear, my question is if you may want to [[compromise|compro]]."
+<</timed>>
+
+::compro
 "Umm I’m not really liable to make those sorts of decisions on behalf of my planet, you see I’m just a scientist." This confused you. Attwood was the one speaking directly to you, the specimen had to be the leader of scientist and the species, right?
+<</timed>>
+<<timed 5s>>
 "But you're the one speaking to the head of the Gaxodins." You told him with confidence as you enjoyed Attwood, the conversation is going at a decent pace.
+<</timed>>
+<<timed 9s>>
 "Oh I understand that but I'm sure I can have the UN meet with you in a few days if you’d like?" Now Attwood was pissing you off.
+<</timed>>
+<<timed 12s>>
 "My species is dying, I do not have a few days to talk to these specimens" You stated angrily. It was time to start pushing.
+<</timed>>
+<<timed 17s>>
 "Okay how About I have a Commanding officer speak to for now while we try to get some UN representatives together?" Attwood asked. You sighed, but waiting could be the best option.
 "I’m willing to wait, but just for a moment."
+<</timed>>
+<<timed 25s>>
 You stood there and waited. The laboratory was silent to the point where you can hear system humming and the noise on the other side of the intercom. Soon, you hear something shut on Attwood's side.
 "Umm so unfortunately the UN representatives are unable to meet right now, are you sure you can't wait A few day’s?" This was making you angry at this point. You said that your species is dying and they want to wait for your numbers to start dropping until they did something. Bellatrix could see the anger on your face. She tried to consul you, but ignored her. You had to make a decision. 
 [[Threaten invasion|Ending War]]
 [[Send your own representative|Ending Compromise]]
 [[Make an offer|Offer]]
+<</timed>>
 
 ::Ending War
 "If you do not get someone here now, I will invade your planet. Whether you like it or not." You angrily yell over the intercom.
