@@ -174,7 +174,144 @@ The image of the planet showed up on the screen, the blue and green was beautifu
 "So, should we get the corrdinates loaded and be on our way?"
 [["Let me think about it."|Walk Back]]
 <</timed>>
+
 ::Argument
+"You better shut your mouth, I want to see you try." Bellatrix was not pleased to see your attitude.
+<</timed>>
+<<timed 3s>>
+"Fine, hand it over." You snag the screen out of Bellatrix's hand.
+You need to act fast or else she'll make fun of you.
+[[Open the planet locator|open pl]] 
+[[Open the messages|open mess]]
+<</timed>>
+
+::open mess
+What now?
+[[Look through them|yeah no]]
+[[admit defeat|defeat]]
+[[Translate it|defeat pt2]]
+
+::yeah no
+"Serious?" She looks at you like your crazy.
+"What?"
+She snags the screen out of your hand and begins to do her thng.
+<<timed 5s>>
+In a minute, she was able to pull up the location of the [[planet.|she wins]]
+<</timed>>
+
+::defeat pt2
+She looks over at what you're doing.
+"I already tried that dummy."
+She snags the screen out of your hand and begins to do her thng.
+<<timed 5s>>
+In a minute, she was able to pull up the location of the [[planet.|she wins]]
+<</timed>>
+
+::open pl
+You open the planet locator as it asked you for a location.
+What will you do now?
+[[Pinpoint the planet|fail]]
+[[Admit defeat|defeat]]
+
+::fail
+You decide to find a way to pinpoint the planet.
+How so?
+[[Use the nude images|roasted]]
+[[Use the message|success]]
+[[Hand it to Bellatrix, she knows better|defeat]]
+
+::success
+You decide to use the messages. It's not the best bet, but it's worth a shot. You open the messages and pull up the one of the several that exist.
+<<timed 5s>>
+After you put the images in, it begins to process. After a minute, the locator [[shows you the planet.|you win]]
+<</timed>>
+
+::you win
+"Looks like I win." She looks at you and rolls her eyes.
+
+"I guess." You both look at the screen and seem the blue and green planet. The location is set.
+"So, should we get the corrdinates loaded and be on our way?"
+[["Let's get to it."|Walk Back]]
+[["On second thought, nah.|ending- death by revolt]]
+
+
+::roasted
+You decide to use the images. It's not the best bet, but it's worth a shot. You open the messages and pull up the nude images. 
+<<timed 5s>>
+You hated it those images, but it was better than nothing. After you put the images in, it begins to process. After a minute, the locator [[fails on you.|defeat]]
+<</timed>>
+::defeat
+Bellatrix laughs in your face.
+"I knew it!!" She snags the screen out of your hand and begins to do her thng.
+<<timed 5s>>
+In a minute, she was able to pull up the location of the [[planet.|she wins]]
+<</timed>>
+
+::she wins
+"Admit it, I'm better than you!"
+[["Fine."|planet located]]
+[["Absolutely not."|reminder]]
+
+::reminder
+She begins to go on a tangent, the words she says reminds you of your wife, [[Anaet|Anaet]].
+
+::Anaet
+Your wife was a dream. She was the most loving women anyone could ever meet, yet she was always competitive as well. Her words gave you headaches sometimes when she would win arguments, but you wouldn’t want it any other way.
+
+She took care of you, helped you at your worse, made you feel loved everyday. Yet, her love vanished when she passed, because of you. The ship had been low on medicine as well as food, causing her to become sick. When the doctor told you she wouldn't make it, you cried.
+
+After her death, you were never able to forgive yourself. You had to become the love she once gave to you and give to your people.
+
+You owe it to her. and to [[your people|so what now?]].
+
+::so what now?
+<span class='fade-in'>"Commander."</span>
+<<timed 3s>>
+<span class='fade-in'>"Commander."</span>
+<</timed>><<timed 6s>>
+"COMMANDER!"
+You jumped and look at Bellatrix.
+"So are we going or not?"
+<</timed>>
+[["To what?"|the planet]]
+[["Where?"|the planet]]
+
+::the planet
+"THE PLANET, DUMBASS!" She shoved the screen in your face. You see the blurry blue and green planet on the screen. You shove the screen away from you and look at Bellatrix.
+<<timed 5s>>
+"So are we going or not, Drako?"
+[["Let's get to it."|Walk Back]]
+[["On second thought, nah."|ending- death by revolt]]
+<</timed>>
+
+::planet located 
+Bellatrix was pleased to see you would admit defeat. She showed you the screen of the blue and green planet, it was beautiful. Your wife would love this.
+"So, should we get the corrdinates loaded and be on our way?"
+[["Let's get to it."|Walk Back]]
+[["On second thought, nah."|ending- death by revolt]]
+
+::ending- death by revolt
+Are you sure?
+[[Maybe not|planet located]]
+[[Fuck it|ending- death by revolt cont.]]
+
+::ending- death by revolt cont.
+Bellatrix looked at you like you were crazy.
+
+"You're joking, right?" She laughed.
+
+"No, I'm not." Her face dropped as did everyone else's in the room. She then walked over to the system, to shut it down for the room and locked the doors.
+
+[["What are you doing?"|death by revolt]]
+
+::death by revolt
+She nods to everyone around her. Everyone begins to pull out their weapons and point them at you.
+
+"I never thought I would have to do this, but... farewell, Drako." All of the researchers and Bellatrix ambush you. You get stabbed, shot, kicked, and punched, dying in the hands of your own people.
+
+What are they doing now?
+
+Who knows, you were the one who [[messed up.|ending list]]
 
 ::Walk back
 You thank Bellatrix and leave the room. You’re not sure if this is the right decision.
